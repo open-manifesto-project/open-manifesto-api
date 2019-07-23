@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:
+    restart: always
+    container_name: oma_web
+    build: .
+    command: ash -c "gunicorn -w 5 --timeout=500 --reload -b 0.0.0.0:5000 manifesto.wsgi:app"
+    volumes:
+      - .:/app
+    ports:
+      - "5000:5000"
+    user: "1000:1000"
