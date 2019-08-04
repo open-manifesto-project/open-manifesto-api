@@ -1,6 +1,14 @@
 version: '3'
 
 services:
+  db:
+    restart: always
+    container_name: oma_db
+    image: postgres:alpine
+    ports:
+      - "5412:5432"
+    volumes:
+      - oma-db:/var/lib/postgresql/data
   web:
     restart: always
     container_name: oma_web
@@ -11,3 +19,6 @@ services:
     ports:
       - "5000:5000"
     user: "1000:1000"
+
+volumes:
+  oma-db:

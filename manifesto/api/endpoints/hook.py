@@ -1,7 +1,5 @@
 from flask_restplus import Namespace, Resource, fields
 
-from manifesto.models import db
-
 
 ns = Namespace('hook', description='Hooks')
 

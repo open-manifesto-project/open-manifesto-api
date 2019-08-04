@@ -2,12 +2,17 @@ from manifesto.database.models import db
 
 
 class Manifesto(db.Model):
+    __tablename__ = 'manifesto'
     id = db.Column(db.Integer, primary_key=True)
-    #title = db.Column(db.String(100))
-    #desc = db.Column(db.String(2048))
-    #game = db.Column(db.String(64))
-    #platform = db.Column(db.String(64))
-    #i18n = db.Column(db.String(32))
-    #start_dt = db.Column(db.DateTime())
-    #end_dt = db.Column(db.DateTime())
-    #players = db.relationship('Player', backref='players', lazy='dynamic')
+    political_party = db.Column(db.String(64))
+    title = db.Column(db.String(128))
+    publication_date = db.Column(db.Date())
+    election_date = db.Column(db.Date())
+    type_of_elections = db.Column(db.String(64)) # Enum
+    geographical_area = db.Column(db.String(64)) # Enum
+    version = db.Column(db.String(8))
+    uri = db.Column(db.String(256))
+    created_by = db.Column(db.String(64))
+    pages = db.Column(db.Integer())
+    num_proposals = db.Column(db.Integer())
+    proposals = db.relationship('Proposal', backref='manifesto', lazy='dynamic')
