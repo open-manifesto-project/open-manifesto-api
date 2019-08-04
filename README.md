@@ -39,7 +39,7 @@ The first time, create test database:
 ```
 docker-compose up -d
 docker exec -u postgres -ti oma_db psql -c "create user manifesto password 'manifesto'"
-docker exec -u postgres -ti oma_db psql -c "create database manifesto owner manifesto"
+docker exec -u postgres -ti oma_db psql -c "create database test_manifesto owner manifesto"
 ```
 
 Run test:

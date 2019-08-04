@@ -16,6 +16,10 @@ class ManifestoTests(unittest.TestCase, FixturesMixin):
     db = db
 
     def setUp(self):
+        self.app = app
+        self.app_context = self.app.app_context()
+        self.app_context.push()
+        db.create_all()
         self.client = ClientJSON(app)
 
     def test_list_manifesto(self):

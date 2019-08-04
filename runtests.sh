@@ -1,1 +1,1 @@
-pytest -v --cov-report term --cov=manifesto tests
+pytest -v -s --cov-report html --cov=manifesto tests
