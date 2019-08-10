@@ -8,7 +8,6 @@ from manifesto.database.models import db
 from manifesto.database.models.manifesto import Manifesto
 from manifesto.database.models.proposal import Proposal
 from manifesto.api.utils import json2db
-from tests.base import ClientJSON
 
 
 app.config.from_object('manifesto.config.TestingConfig')
@@ -25,7 +24,10 @@ class JsonTests(unittest.TestCase, FixturesMixin):
         self.app_context = self.app.app_context()
         self.app_context.push()
         db.create_all()
-        self.client = ClientJSON(app)
+
+    def tearDown(self):
+        db.session.remove()
+        db.drop_all()
 
     def test_load_json_in_db(self):
         """ Load severals json and save in database """

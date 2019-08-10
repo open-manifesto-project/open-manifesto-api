@@ -25,6 +25,9 @@ class BaseConfig:
 
     SECRET_KEY = 'manifesto_pass'
 
+    REPO_OWNER = 'Virako'
+    REPO_REPO = 'Open-Manifesto'
+
 
 class ProConfig(BaseConfig):
     DEBUG = False
@@ -45,6 +48,7 @@ class TestingConfig(BaseConfig):
         'port': '5432',
     }
     SQLALCHEMY_DATABASE_URI = 'postgresql://{user}:{pwd}@{host}:{port}/{db}'.format(**POSTGRES)
+    FIXTURES_DIRS = ['../tests/fixtures']
 
 
 try:  # pragma: no cover

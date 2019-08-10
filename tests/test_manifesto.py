@@ -3,7 +3,6 @@ from flask_fixtures import FixturesMixin
 
 from manifesto.app import app
 from manifesto.database.models import db
-from tests.base import ClientJSON
 
 
 app.config.from_object('manifesto.config.TestingConfig')
@@ -20,7 +19,11 @@ class ManifestoTests(unittest.TestCase, FixturesMixin):
         self.app_context = self.app.app_context()
         self.app_context.push()
         db.create_all()
-        self.client = ClientJSON(app)
+        self.client = app.test_client()
+
+    def tearDown(self):
+        db.session.remove()
+        db.drop_all()
 
     def test_list_manifesto(self):
         response = self.client.get('/api/manifesto')

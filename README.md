@@ -45,5 +45,5 @@ docker exec -u postgres -ti oma_db psql -c "create database test_manifesto owner
 Run test:
 
 ```
-docker run -ti --rm -v `pwd`:/app:z oma sh runtests.sh
+docker exec -ti oma_web sh runtests.sh
 ```
