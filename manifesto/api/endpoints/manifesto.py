@@ -1,5 +1,6 @@
 from flask_restplus import Namespace, Resource
 
+from manifesto.database.models.manifesto import Manifesto
 from manifesto.database.schemas.manifesto import serializer as ser_manifesto
 
 
@@ -13,8 +14,7 @@ class ManifestoList(Resource):
     @ns.marshal_list_with(manifesto)
     def get(self):
         '''List all manifestos'''
-        # TODO
-        return []
+        return Manifesto.query.all()
 
 
 @ns.route('/<id>')
@@ -26,5 +26,34 @@ class ManifestoParam(Resource):
     @ns.marshal_with(manifesto)
     def get(self, id):
         '''Fetch a manifesto given its identifier'''
-        # TODO
-        return ''
+        return Manifesto.query.get(id)
+
+
+@ns.route('/election-type')
+class ManifestoElectionType(Resource):
+    @ns.doc('election_types')
+    def get(self):
+        '''List election types'''
+        col = Manifesto.type_of_elections
+        query = Manifesto.query.with_entities(col).distinct().all()
+        return list(zip(*query))
+
+
+@ns.route('/geographical-area')
+class ManifestoGeographicalArea(Resource):
+    @ns.doc('geographical_areas')
+    def get(self):
+        '''List geographical areas'''
+        col = Manifesto.geographical_area
+        query = Manifesto.query.with_entities(col).distinct().all()
+        return list(zip(*query))
+
+
+@ns.route('/political-party')
+class ManifestoPoliticalParty(Resource):
+    @ns.doc('political_parties')
+    def get(self):
+        '''List political parties'''
+        col = Manifesto.political_party
+        query = Manifesto.query.with_entities(col).distinct().all()
+        return list(zip(*query))

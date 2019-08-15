@@ -1,5 +1,8 @@
 from flask_restplus import Namespace, Resource
+from sqlalchemy import func
 
+from manifesto.database.models import db
+from manifesto.database.models.proposal import Proposal
 from manifesto.database.schemas.proposal import serializer as ser_proposal
 
 
@@ -13,8 +16,7 @@ class ProposalList(Resource):
     @ns.marshal_list_with(proposal)
     def get(self):
         '''List all proposals'''
-        # TODO
-        return []
+        return Proposal.query.all()
 
 
 @ns.route('/<id>')
@@ -26,5 +28,22 @@ class ProposalParam(Resource):
     @ns.marshal_with(proposal)
     def get(self, id):
         '''Fetch a proposal given its identifier'''
-        # TODO
-        return ''
+        return Proposal.query.get(id)
+
+@ns.route('/topic')
+class ProposalTopic(Resource):
+    @ns.doc('proposal_topics')
+    def get(self):
+        '''List proposal topics'''
+        query = db.session.query(func.unnest(Proposal.topics)).distinct().all()
+        return list(zip(*query))
+
+
+@ns.route('/priority')
+class ProposalPriority(Resource):
+    @ns.doc('proposal_priorities')
+    def get(self):
+        '''List proposal priorities'''
+        col = Proposal.priority
+        query = Proposal.query.with_entities(col).distinct().all()
+        return list(zip(*query))
