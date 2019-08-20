@@ -8,8 +8,8 @@ class Manifesto(db.Model):
     title = db.Column(db.String(128))
     publication_date = db.Column(db.Date())
     election_date = db.Column(db.Date())
-    type_of_elections = db.Column(db.String(64)) # Enum
-    geographical_area = db.Column(db.String(64)) # Enum
+    type_of_elections = db.Column(db.String(64))
+    geographical_area = db.Column(db.String(64))
     version = db.Column(db.String(8))
     uri = db.Column(db.String(256))
     created_by = db.Column(db.String(64))

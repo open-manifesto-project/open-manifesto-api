@@ -23,6 +23,18 @@ class ProposalTests(unittest.TestCase, FixturesMixin):
         self.app_context.push()
         db.create_all()
         self.client = app.test_client()
+        self.proposal_keys = [
+            'agents',
+            'body',
+            'budget',
+            'id',
+            'id_manifesto',
+            'id_proposal',
+            'non_negotiable',
+            'priority',
+            'tags',
+            'topics'
+        ]
 
     def tearDown(self):
         db.session.remove()
@@ -32,8 +44,7 @@ class ProposalTests(unittest.TestCase, FixturesMixin):
         response = self.client.get('/api/proposal')
         self.assertEqual(response.status_code, 200)
         self.assertEqual(len(response.get_json()), 166)
-        keys = sorted(['id'])
-        self.assertEqual(sorted(response.get_json()[0].keys()), keys)
+        self.assertEqual(sorted(response.get_json()[0].keys()), self.proposal_keys)
 
     def test_get_proposal(self):
         response = self.client.get('/api/proposal/1')

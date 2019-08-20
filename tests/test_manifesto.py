@@ -3,6 +3,7 @@ from flask_fixtures import FixturesMixin
 
 from manifesto.app import app
 from manifesto.database.models import db
+from manifesto.database.models.manifesto import Manifesto
 
 
 app.config.from_object('manifesto.config.TestingConfig')
@@ -23,6 +24,21 @@ class ManifestoTests(unittest.TestCase, FixturesMixin):
         self.app_context.push()
         db.create_all()
         self.client = app.test_client()
+        self.manifesto_keys = [
+            'created_by',
+            'election_date',
+            'geographical_area',
+            'id',
+            'num_proposals',
+            'pages',
+            'political_party',
+            'proposals',
+            'publication_date',
+            'title',
+            'type_of_elections',
+            'uri',
+            'version'
+        ]
 
     def tearDown(self):
         db.session.remove()
@@ -32,14 +48,12 @@ class ManifestoTests(unittest.TestCase, FixturesMixin):
         response = self.client.get('/api/manifesto')
         self.assertEqual(response.status_code, 200)
         self.assertEqual(len(response.get_json()), 1)
-        keys = sorted(['id'])
-        self.assertEqual(sorted(response.get_json()[0].keys()), keys)
+        self.assertEqual(sorted(response.get_json()[0].keys()), self.manifesto_keys)
 
     def test_get_manifesto(self):
         response = self.client.get('/api/manifesto/1')
         self.assertEqual(response.status_code, 200)
-        keys = sorted(['id'])
-        self.assertEqual(sorted(response.get_json().keys()), keys)
+        self.assertEqual(sorted(response.get_json().keys()), self.manifesto_keys)
 
     def test_get_election_types(self):
         response = self.client.get('/api/manifesto/election-type')
