@@ -71,6 +71,6 @@ class HookRegister(Resource):
                 old_data = json.loads(b64decode(req_before.json().get('content')))
             else:
                 return '', req_before.status_code
-            json2db(data, old_data=data, mode='rm')
+            json2db(data, old_data=data, mode='modify')
 
         return '', 200

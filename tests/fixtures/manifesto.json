@@ -6,7 +6,7 @@
             "political_party": "Compromiso por Europa",
             "title": "Prueba Imparables: Programa electoral para las Elecciones\nal Parlamento Europeo 2019",
             "publication_date": "2019-05-10",
-            "election_date": "2019-05-26",
+            "election_date": "2019-08-09",
             "type_of_elections": "europeas",
             "geographical_area": "",
             "version": 1.0,
@@ -80,7 +80,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 2,
             "body": "Implementaremos un programa de envejecimiento activo y solidaridad intergeneracional que fomente el intercambio de los mayores entre los diferentes\npaíses de la Unión Europea con un enfoque comunitario y de reconocimiento de la diversidad cultural.",
             "topics": [
                 "Sociedad y bienestar",
@@ -111,7 +111,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 3,
             "body": "Protegeremos los derechos de la Infancia migrante prohibiendo las repatriaciones, en contra de su voluntad, y facilitando la autorización de residencia de trabajo de los niños, niñas y adolescentes que hayan convivido más de un año en los diferentes sistemas de protección pública.",
             "topics": [
                 "Sociedad y bienestar",
@@ -144,7 +144,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 4,
             "body": "Realizaremos una directiva europea restrictiva que regule el juego y el juego en línea y prohíba la publicidad, porque supone un problema de salud pública.",
             "topics": [
                 "Legislación y justicia",
@@ -171,7 +171,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 5,
             "body": "Trabajaremos para un nuevo Erasmus +. El nuevo programa Erasmus + debe asignar una asignación presupuestaria mínima para estos grupos de personas. En el próximo Marco Financiero Plurianual, pedimos más del doble del presupuesto de Erasmus+ actual, y subrayamos la importancia de la movilidad, del aprendizaje no sólo para los estudiantes de la educación superior, sino también para aquellos que trabajan en educación de adultos y en educación y formación profesional. También hay que mejorar la movilidad del personal docente en estos sectores; así como impulsar más oportunidades de movilidad para el profesorado y el alumnado de la educación primaria.",
             "topics": [
                 "Educación"
@@ -234,7 +234,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 6,
             "body": "Instaremos la Comisión Europea a prestar más atención a la creación de un entorno de apoyo para el personal docente y para la dimensión social de la enseñanza. Se debe poner énfasis en la validación y el reconocimiento de los periodos de educación y formación en el extranjero y en línea, y por tanto,\nvincular la asignación del presupuesto a procedimientos que aseguren la calidad y las descripciones de los resultados de aprendizaje, así como las\nherramientas que contribuyan a reconocer experiencias educativas en el extranjero y garantizar un aprendizaje de calidad, como el Marco europeo de\ncualificaciones (EQF), el Registro europeo de aseguramiento de la calidad de la enseñanza superior (EQAR), el sistema europeo de créditos para la educación y la formación profesional (ECVET) y el aseguramiento europeo de calidad en la educación y la formación profesional (EQAVET).",
             "topics": [
                 "Educación"
@@ -313,7 +313,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 7,
             "body": "Promoveremos el reconocimiento mutuo de títulos. Las decisiones sobre la admisión a un programa concreto y las calificaciones requeridas para acceder a los estudios en universidades extranjeras, se dejan a discreción de las universidades. Asimismo, el calendario y los criterios varían de una universidad a otra. Pediremos a la Comisión que inicie un nuevo proceso para preparar política y técnicamente el reconocimiento mutuo de diplomas de  Programa 2019 educación superior y abandono escolar y facilitar la validación transfronteriza de los certificados de formación específica y de formación continua",
             "topics": [
                 "Educación"
@@ -372,7 +372,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 8,
             "body": "Trabajaremos para mejorar la cooperación entre las instituciones de la UE y los Estados miembros mediante el relanzamiento y la actualización del marco para la cooperación europea en educación y formación. Es fundamental establecer una línea de educación sólida tanto en los fondos de la UE comoen los instrumentos de inversión de la UE. Más inversión en educación será necesaria para garantizar una educación de calidad para todas y todos. De modo que pedimos que se establezca un nivel mínimo de inversión educativa para todos los Estados miembros, al tiempo que se fomentan las fuentes de financiación diversificadas. El ajuste del Semestre Europeo al Pilar Europeo de los Derechos Sociales, que tiene como principio básico la capacitación y la educación, puede ser un buen comienzo para aumentar la inversión.",
             "topics": [
                 "Educación",
@@ -447,7 +447,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 9,
             "body": "Europa necesita ser construida desde los cimientos del conocimiento y la ciencia. Por todo ello, proponemos: Impulsar un Plan de modernización industrial europea, que se centre en potenciar el I+D+i en los sectores estratégicos de la economía no contaminantes, la innovación abierta, la investigación básica, la cooperación entre administraciones y las mejoras en la organización del trabajo .",
             "topics": [
                 "Educación",
@@ -492,7 +492,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 10,
             "body": "Priorizar la investigación destinada a resolver los retos medioambientales y sociales del siglo XXI, tales como: la lucha contra el cambio climático hasta cumplir los compromisos adquiridos en el Acuerdo de París, el fomento de las energías limpias, la sanidad, la lucha contra la pobreza y la cooperación al desarrollo. Asimismo, potenciar los proyectos que trabajan por el crecimiento igualitario de la sociedad y el progreso social en colaboración con las universidades públicas.",
             "topics": [
                 "Educación",
@@ -543,7 +543,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 11,
             "body": "El programa Horizonte Europa no puede sustituir la inversión de los sistemas estatales de investigación, sino que debe ser una inversión complementaria. Por ello, exigiremos una mayor transparencia en la distribución de la financiación en I+D+i para que se reparta de manera clara y evite las subvenciones encubiertas; igualmente velaremos para que los Estados Miembros inviertan un 3% del Producto Interior Bruto en materia de I+D+i.",
             "topics": [
                 "Educación",
@@ -597,7 +597,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 12,
             "body": "Impulsaremos un Plan Europeo de retorno del talento investigador y modelos de carrera profesionales estables que sean garantía de equipos humanos y tecnológicos a largo plazo.",
             "topics": [
                 "Educación",
@@ -626,7 +626,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 13,
             "body": "Impulsaremos una política activa de divulgación científica ide promoción de la cultura científica en el ámbito europeo para que estimule el pensamiento crítico y la vocación científica, especialmente entre la población más joven",
             "topics": [
                 "Educación",
@@ -659,7 +659,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 14,
             "body": "Propondremos una hoja de ruta europea con objetivos a corto y largo plazo para corregir las prácticas que generan barreras en la carrera científica de las mujeres.",
             "topics": [
                 "Educación",
@@ -687,7 +687,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 15,
             "body": "Mejoraremos las sinergias entre educación y cultura como pilar de la nueva política cultural europea. ",
             "topics": [
                 "Cultura y ocio",
@@ -709,7 +709,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 16,
             "body": "Apoyaremos la acción preparatoria del Parlamento Europeo “Music Move Europe” como primer paso importante para estimular la creatividad, la diversidad y la innovación en el sector musical europeo.",
             "topics": [
                 "Cultura y ocio"
@@ -741,7 +741,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 17,
             "body": "Implementaremos la Estrategia de Relaciones culturales externas con la debida atención a las organizaciones culturales locales y de base y a los actores. No solo para exportar cultura europea sino también para crear vínculos y mejorar el diálogo intercultural.",
             "topics": [
                 "Cultura y ocio"
@@ -775,7 +775,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 18,
             "body": "Exigiremos doblar el presupuesto de Europa Creativa y el desarrollo de una estrategia coordinada para incorporar la cultura en otros ámbitos políticos.",
             "topics": [
                 "Cultura y ocio"
@@ -799,7 +799,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 19,
             "body": "Instaremos a la Comisión Europea a desarrollar un espacio web / portal de “ventana única” donde todos los instrumentos existentes de financiación de la UE se enumeren de una manera fácil, exhaustiva y eficiente. ",
             "topics": [
                 "Cultura y ocio"
@@ -831,7 +831,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 20,
             "body": "Impulsaremos una estrategia para establecer una normativa definida que reconozca el valor intrínseco de la cultura, que proteja la libertad de expresión y creación en el mundo artístico, así como de las aportaciones a los valores democráticos y a los derechos humanos en todo el territorio de la Unión Europea.",
             "topics": [
                 "Cultura y ocio"
@@ -867,7 +867,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 21,
             "body": "Incentivaremos las carreras profesionales, la emprendeduría y la formación en el sector cultural y creativo, y potenciaremos la movilidad internacional\nen todos los ámbitos. ",
             "topics": [
                 "Cultura y ocio",
@@ -892,7 +892,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 22,
             "body": "Reclamaremos la mejora de las condiciones laborales en el sector cultural y creativo e inclusión de las industrias culturales a la iniciativa de Ocupación Juvenil. ",
             "topics": [
                 "Cultura y ocio",
@@ -918,7 +918,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 23,
             "body": "Facilitaremos el acceso a la financiación europea de los microproyectos, en especial a Europa Creativa, y trabajaremos para coordinar los diferentes programas de financiación europea para que el sector cultural y creativo también esté reconocido. ",
             "topics": [
                 "Cultura y ocio"
@@ -948,7 +948,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 24,
             "body": "Trabajaremos para garantizar la asistencia sanitaria pública para todas las personas de la Unión Europea. También implementaremos políticas de mejora de la salud específicas para grupos de población vulnerables.",
             "topics": [
                 "Salud",
@@ -978,7 +978,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 25,
             "body": "Trabajaremos para priorizar la financiación pública de la investigación en el ámbito europeo para eliminar las desigualdades, los efectos del cambio\nclimático y la contaminación en la salud.",
             "topics": [
                 "Salud",
@@ -1005,7 +1005,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 26,
             "body": "Exigiremos el aumento de las restricciones y de los impuestos sobre el alcohol, el tabaco y las bebidas azucaradas, además de controles en la publicidad  Programa 2019 o sistemas de etiquetado sencillo en los productos alimentarios en base a su calidad nutricional, con especial énfasis sobre los productos dirigidos a población infantil y juvenil",
             "topics": [
                 "Salud",
@@ -1046,7 +1046,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 27,
             "body": "Promoveremos la evaluación del impacto en salud de todas las políticas públicas relevantes con influencia sobre los determinantes económicos, sociales y\nambientales de la salud y el bienestar de la población.",
             "topics": [
                 "Salud"
@@ -1074,7 +1074,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 28,
             "body": "Promoveremos un mayor control de la influencia de las empresas farmacéuticas sobre el sector sanitario.",
             "topics": [
                 "Salud"
@@ -1094,7 +1094,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 29,
             "body": "Crearemos una agencia europea que recopile los datos y sea la responsable de los programas de control coordinado. Trabajaremos en la lucha contra las plagas,\nmejorando la vigilancia y compartiendo datos entre los estados de la UE y unificaremos el criterio de cuáles son las dolencias de declaración obligatoria",
             "topics": [
                 "Salud"
@@ -1129,7 +1129,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 30,
             "body": "Trabajaremos para que las ciudades, más allá de convertirse en espacios saludables y sostenibles, se conviertan en ciudades cuidadoras y proporcionen\nrecursos comunitarios para hacerse cargo de las necesidades de personas que vivan solas, mayores y dependientes",
             "topics": [
                 "Salud"
@@ -1162,7 +1162,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 31,
             "body": "Ampliaremos la Tarjeta Europea Sanitaria con la inclusión de la dispensación\nde medicamentos en todos los estados de la UE.",
             "topics": [
                 "Salud"
@@ -1182,7 +1182,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 32,
             "body": "Favoreceremos el desarrollo y el uso de nuevos medicamentos genéricos y\nbiosimilares y crearemos un mecanismo de información normalizado y transparente sobre los motivos que provocan la escasez de medicamentos.",
             "topics": [
                 "Salud"
@@ -1210,7 +1210,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 33,
             "body": "Promoveremos y daremos a conocer el procedimiento de la UE para la adquisición conjunta de vacunas, de forma que todos los estados miembros aprovechen plenamente este instrumento.",
             "topics": [
                 "Salud"
@@ -1235,7 +1235,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 34,
             "body": "Las evaluaciones de las tecnologías sanitarias son un instrumento importante y eficaz para mejorar el acceso a los medicamentos y contribuyen a la sostenibilidad de los sistemas de salud de los estados. Introduciremos, por tanto, evaluaciones conjuntas a escala europea para evitar la fragmentación de los sistemas de evaluación, duplicación de esfuerzos y asignación inapropiada de recursos de la UE.",
             "topics": [
                 "Salud"
@@ -1275,7 +1275,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 35,
             "body": "Daremos prioridad al desarrollo y aplicación de soluciones relacionadas con la sanidad electrónica y móvil, para garantizar nuevos modelos de atención sanitaria seguros, fiables, accesibles, modernos y sostenibles para los y las pacientes, personal cuidador y sanitario y financiadores",
             "topics": [
                 "Salud"
@@ -1311,7 +1311,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 36,
             "body": "Aumentaremos el apoyo a los proyectos para mejorar los hábitos saludables de la ciudadanía europea, así como para trabajar la inclusión social a través de la actividad física.",
             "topics": [
                 "Deporte"
@@ -1338,7 +1338,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 37,
             "body": "Lucharemos contra la violencia, la discriminación, el racismo y el machismo en el deporte a través de todos los medios posibles, y fomentaremos\nla educación en valores a través de la práctica deportiva.",
             "topics": [
                 "Deporte",
@@ -1366,7 +1366,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 38,
             "body": "Trabajaremos para conseguir que las y los deportistas y clubes deportivos de los territorios puedan concurrir a las competiciones de ámbito europeo en igualdad de condiciones con el resto de territorios.",
             "topics": [
                 "Deporte"
@@ -1393,7 +1393,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 39,
             "body": "Lucharemos contra el dopaje en las competiciones deportivas a través de todos los medios posibles.",
             "topics": [
                 "Deporte"
@@ -1412,7 +1412,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 40,
             "body": "Estableceremos las medidas normativas adecuadas para equiparar las condiciones de trabajo de las deportistas femeninas con los deportistas masculinos.",
             "topics": [
                 "Deporte",
@@ -1436,7 +1436,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 41,
             "body": "Impulsaremos la obligatoriedad de códigos de buen gobierno en las federaciones y clubes deportivos",
             "topics": [
                 "Deporte"
@@ -1456,7 +1456,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 42,
             "body": "Aumentaremos el presupuesto de la Unión Europea destinado a los programas Erasmus + Sport.",
             "topics": [
                 "Deporte"
@@ -1476,7 +1476,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 43,
             "body": "Promoveremos ayudas directas a los y las jóvenes deportistas para facilitar su participación en competiciones internacionales",
             "topics": [
                 "Deporte"
@@ -1497,7 +1497,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 44,
             "body": "Estableceremos medidas de protección y fomento de los deportes tradicionales practicados en nuestro territorio, en España y en Europa, como muestra de la diversidad cultural.",
             "topics": [
                 "Deporte"
@@ -1522,7 +1522,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 45,
             "body": "Propondremos la aprobación de una normativa que permita garantizar la formación dual de los y las deportistas (estudios académicos y / o mercado de trabajo)",
             "topics": [
                 "Deporte"
@@ -1546,7 +1546,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 46,
             "body": "Estableceremos el marco adecuado para regular la figura del voluntariado deportivo",
             "topics": [
                 "Deporte"
@@ -1565,7 +1565,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 47,
             "body": "Fortalecer las políticas activas de ocupación en la Unión Europea, especialmente aquellas dirigidas a los grupos de población con mayores dificultades de acceso al mercado laboral.",
             "topics": [
                 "Empleo",
@@ -1594,7 +1594,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 48,
             "body": "Luchar contra la precariedad, estableciendo líneas de ayudas para los Servicios Públicos de Ocupación que permiten subvencionar la contratación estable y de calidad.",
             "topics": [
                 "Empleo"
@@ -1619,7 +1619,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 49,
             "body": "Promover una legislación europea que luche contra la brecha salarial entre hombres y mujeres, promoviendo la igualdad de derechos y de oportunidades.",
             "topics": [
                 "Empleo"
@@ -1643,7 +1643,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 50,
             "body": "Promover la reducción de la jornada laboral a cuatro días semanales en el ámbito europeo, estableciendo ayudas para las empresas que mejoren sus políticas de conciliación y flexibilidad interna.",
             "topics": [
                 "Empleo"
@@ -1672,7 +1672,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 51,
             "body": "Impulsar campañas de concienciación y control, coordinadas en la Unión Europea, para luchar contra la economía sumergida y el incumplimiento de medidas de salud y seguridad en el trabajo.",
             "topics": [
                 "Empleo"
@@ -1699,7 +1699,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 52,
             "body": "Impulsar la asociación de trabajadores y trabajadoras de forma cooperativa, estimulando nuevas formas de organización económica sostenibles y con mayor retorno social.",
             "topics": [
                 "Empleo"
@@ -1726,7 +1726,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 53,
             "body": "Promover una cultura sana y responsable de la innovación y el emprendimiento en la Unión Europea, haciendo especial énfasis en la formación y en el conocimiento como alternativas para estructurar un nuevo modelo económico de progreso",
             "topics": [
                 "Empleo",
@@ -1758,7 +1758,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 54,
             "body": "Establecer políticas que persigan la equiparación salarial en la Unión Europea.",
             "topics": [
                 "Empleo"
@@ -1777,7 +1777,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 55,
             "body": "Impulsaremos un plan para que los Estados miembro amplíen su parque público de viviendas destinado a alquiler asequible, con el objetivo final que ninguna unidad familiar destine más del 30% de sus ingresos. Este plan debe priorizar la movilización del parque de viviendas vacías de las entidades financieras rescatadas con dinero público así como de bancos, empresas o fondos de inversión para acabar con la especulación.",
             "topics": [
                 "Vivienda",
@@ -1827,7 +1827,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 56,
             "body": "Pondremos fin a las ventajas fiscales de las SOCIMI (Sociedades Anónimas Cotizadas de Inversión en el Mercado Inmobiliario)",
             "topics": [
                 "Vivienda",
@@ -1851,7 +1851,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 57,
             "body": "Promoveremos una normativa que obligue a destinar un mínimo de un 30% de la nueva construcción a vivienda protegida de Protección Oficial, de Precio Tasado y de alquiler; del cual, un 7% se destinará a vivienda joven",
             "topics": [
                 "Vivienda",
@@ -1883,7 +1883,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 58,
             "body": "Regularemos al ámbito europeo los desahucios y lanzamientos para garantizar que no se pueda hacer fuera de la vivienda ninguna persona sin una alternativa habitacional digna y adecuada.",
             "topics": [
                 "Vivienda",
@@ -1911,7 +1911,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 59,
             "body": "Garantizaremos que los Estados miembros limiten la responsabilidad de\nla persona deudora hipotecaria al bien hipotecado, permitiendo el derecho a la dación en pago de la vivienda cuando se trate de la vivienda habitual de la persona deudora y ésta se encuentre en situación de insolvencia\nno buscada.",
             "topics": [
                 "Vivienda"
@@ -1947,7 +1947,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 60,
             "body": "Crearemos un ambicioso programa que apueste decididamente por la rehabilitación urbana y la reforma de viviendas y edificios, tanto públicos como privados, con el objetivo de reducir la demanda energética con actuaciones de mejora de la accesibilidad, el aislamiento térmico y la autoconsumo.",
             "topics": [
                 "Vivienda"
@@ -1981,7 +1981,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 61,
             "body": "En caso de llevarse a cabo correctamente la transición energética hacia las energías renovables, reduciremos la contaminación, crearemos nuevos puestos de trabajo y aumentaremos nuestra independencia energética, al tiempo que nos permitirá democratizar el sector donde la ciudadanía podrá ejercer un papel más activo.",
             "topics": [
                 "Energía",
@@ -2021,7 +2021,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 62,
             "body": "Abordaremos la lucha contra la pobreza energética para garantizar el derecho del acceso universal y asequible alconsumo de electricidad, por lo que, cualquier persona en la UE tenga cubiertas sus necesidades energéticas básicas, así como el mantenimiento de los hogares en condiciones climáticas adecuadas para la salud.",
             "topics": [
                 "Energía",
@@ -2059,7 +2059,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 63,
             "body": "Un nuevo modelo energético europeo, limpio, gradualmente libre de energías fósiles, sin energía nuclear, sin fracking y basado en la eficiencia y\nlas energías renovables; basado en la autosuficiencia energética y el fomento del autoconsumo y microredes. El nuevo modelo energético debe\nvenir acompañado de un plan de interconexiones que fomente el uso de las redes y dé soluciones a las debilidades de la dependencia de fuentes renovables",
             "topics": [
                 "Energía",
@@ -2111,7 +2111,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 64,
             "body": "Revisaremos el mercado europeo de emisiones, a fin de aumentar los costes de cada tonelada de emisiones, así como la creación de una tasa de\ncarbono europea para las emisiones difusas. Acabaremos con las exenciones fiscales a los carburantes en el transporte aéreo y se creará un fondo\nfinalista destinado al transporte bajo en emisiones.",
             "topics": [
                 "Energía",
@@ -2155,7 +2155,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 65,
             "body": "Impulsaremos medidas coordinadas a nivel europeo, para que los Estados miembro, atiendan debidamente la pobreza energética y protejan a los colectivos en riesgo de exclusión, de los efectos sociales del aumento de los precios energéticos, con medidas como la rehabilitación energética de edificios y lucha contra situaciones de oligopolio que impiden la competencia. Defenderemos la aplicación de tarifas abordables y realistas, tanto en capacidad como en precio para los clientes. Y instaremos a las empresas energéticas a negociar un precio de mercado supereducido para el conjunto de administraciones de la UE.",
             "topics": [
                 "Energía",
@@ -2214,7 +2214,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 66,
             "body": "Exigiremos una auditoría para saber de qué manera han sido utilizados los fondos europeos dedicados a la energía en el pasado y detectar las malas prácticas que llevaron a cabo en casos de corrupción (como el caso Castor en las costas del norte de Castellón) así como la utilización de los fondos en proyectos insostenibles y nocivos para el territorio.",
             "topics": [
                 "Energía",
@@ -2257,7 +2257,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 67,
             "body": "Aseguraremos que las inversiones destinadas a las energías fósiles sean excluidas de los planes europeos. Además, impulsaremos que los Fondos de Globalización o de Modernización de la Comisión Europea se destinen a la transición justa, así como en la investigación e innovación para alinearlos con las mejores políticas que se adecuen en virtud del Acuerdo de París.",
             "topics": [
                 "Energía",
@@ -2299,7 +2299,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 68,
             "body": "Garantizaremos que la UE esté preparada para hacer frente a los impactos del cambio climático, dado que es un factor clave para la seguridad del conjunto europeo. La adaptación al cambio climático identificando, actuando y reduciendo el riesgo de catástrofes e incrementando la resiliencia, debe ser una prioridad europea para rebajar a largo plazo la vulnerabilidad de las diferentes regiones de Europa frente a sus impactos.",
             "topics": [
                 "Medio ambiente"
@@ -2348,7 +2348,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 69,
             "body": "Trabajaremos para incrementar la presencia de las mujeres en un sector tan masculinizado como es el de la energía, donde las mujeres son muy pocas veces invitadas en calidad de expertas eventos, públicos o privados, conferencias, debates o mesas redondas.",
             "topics": [
                 "Energía; sociedad y bienestar"
@@ -2381,7 +2381,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 70,
             "body": "Por todo ello proponemos: Mecanismos de control estricto de los fondos y subvenciones europeas de carácter ambiental dirigidos al medio natural y rural (FEDER, LEADER, etc.) para garantizar su correcta utilización y los mínimos impactos ambientales y sociales en su aplicación (garantizar la sostenibilidad y laequidad). Hacen falta mecanismos rigurosos de vigilancia y supervisión de las actividades subvencionadas y de sus efectos prácticos, dados los antecedentes de usos impropios.",
             "topics": [
                 "Medio ambiente",
@@ -2436,7 +2436,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 71,
             "body": "Supervisión de las ayudas europeas para la extracción de biomasa de origen forestal para usos energéticos, a fin de garantizar que se trate estrictamente de biomasa residual y que no haya riesgos ambientales asociados a su aprovechamiento. Hay que dar preferencia al aprovechamiento de restos agrícolas y ganaderas y la fracción orgánica de los residuos urbanos de los municipios rurales, para producir metano (combustible) y compost.",
             "topics": [
                 "Medio ambiénte",
@@ -2484,7 +2484,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 72,
             "body": "Apoyo y ayudas a iniciativas locales y a pequeña escala de turismo rural sostenible, excluyendo actividades que no cumplan requisitos y premiando iniciativas con mínimos impactos ambientales y máximos beneficios sociales (distribución entre la población y el territorio, equidad social, viabilidad futura), especialmente en áreas protegidas. Priorizar actividades de bajo impacto como senderismo, turismo ecológico (basado en el conocimiento de fauna, flora, paisaje, ecosistemas singulares, etc.), turismo etnográfico y cultural, rehabilitación de edificios y construcciones tradicionales, como infraestructuras de base (alojamientos, restaurantes, centros de interpretación), mantenimiento de sendas tradicionales, etc.; todo esto vinculado a la creación de empleo rural, y conectado con la transformación, venta y distribución de producciones agrícolas locales",
             "topics": [
                 "Medio ambiente",
@@ -2571,7 +2571,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 73,
             "body": "Apoyo a la agricultura ecológica de calidad en áreas rurales de montaña y predominio forestal, primando la calidad por encima de la cantidad, y la vin - culación a prácticas de mínimo impacto y compatibilidad con la protección del medio. Priorizar actividades que puedan beneficiarse de la denomina - ción de origen, buenas prácticas agrarias, vinculación a espacios naturales protegidos, etc. Integración de estas actividades con actividades comple - mentarias de turismo rural interior y distribución en zonas de proximidad (km. 0).",
             "topics": [
                 "Medio ambiente",
@@ -2633,7 +2633,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 74,
             "body": "Implementación total y correcta de la Red Natura 2000 para acabar con el retraso y las diferentes deficiencias. Seguimiento por parte de Europa para garantizar que las normativas de las zonas ZEC sean rigurosas y de acuerdo con los objetivos de la Directiva Europea de Hábitats. Atención a la conectividad entre hábitats y regulación apropiada de actividades impactantes.",
             "topics": [
                 "Medio ambiente",
@@ -2676,7 +2676,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 75,
             "body": "Impulsaremos una Directiva de Prohibición de los Festejos con Animales que asegure que ninguna financiación pública vaya destinada a actividades nocivas contra los animales. Además, impulsaremos la incorporación de criterios de bienestar animal en los parques zoológicos.",
             "topics": [
                 "Cultura y ocio",
@@ -2711,7 +2711,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 76,
             "body": "Promoveremos la eliminación del carácter excepcionalidad, por razón de cultura o tradición, como justificación del incumplimiento de la\nnormativa sobre bienestar animal y contra la crueldad en todos los casos.",
             "topics": [
                 "Cultura y ocio",
@@ -2738,7 +2738,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 77,
             "body": "Promulgaremos la eliminación de las excepciones en la normativa europea sobre el sacrificio con aturdimiento de animales y la obligatoriedad de la adopción de estándares de bienestar animal como es\nla densidad adecuada para cada especie de peces en piscifactorías, y la reducción y mejora del tiempo de transporte de animales vivos. Además, impulsaremos la mejora en el etiquetado y contenido de la\ninformación sobre los productos de origen animal.",
             "topics": [
                 "Legislación y justicia",
@@ -2785,7 +2785,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 78,
             "body": "Impulsaremos el fomento de la inversión económica y científica para\nel desarrollo de alternativas y métodos para la reducción y adaptación del uso de la experimentación con animales.",
             "topics": [
                 "Ciencia y tecnología"
@@ -2810,7 +2810,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 79,
             "body": "Exigiremos medidas de protección de los mercados propios con una remuneración digna para nuestros productores y productoras, así como la exigencia de reciprocidad efectiva respecto a terceros\npaíses. Estricta vigilancia de los mercados para la aplicación de la\ncláusula de salvaguardia a los acuerdos citrícolas y otras producciones con terceros países.",
             "topics": [
                 "Economía",
@@ -2850,7 +2850,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 80,
             "body": "Defenderemos el potencial productivo endógeno frente a la potencial amenaza fitosanitaria externa.",
             "topics": [
                 "Medio ambiente",
@@ -2872,7 +2872,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 81,
             "body": "Potenciaremos la protección del modelo de la agricultura familiar valenciana, como un rasgo identitario valenciano, y de las pequeñas\nempresas agrarias",
             "topics": [
                 "Economía",
@@ -2897,7 +2897,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 82,
             "body": "Potenciaremos la multifuncionalidad de los agricultores y agricultoras, la dedicación a tiempo parcial, así como la diversidad y adaptabilidad del producto; todas ellas características únicas de nuestra\nagricultura.",
             "topics": [
                 "Economía",
@@ -2925,7 +2925,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 83,
             "body": "Reforzaremos la sostenibilidad, potenciando el uso racional de los recursos naturales, con una reducción efectiva y computable de los contaminados, reduciendo el uso de nitratos, mejorando la calidad del agua y de las emisiones.",
             "topics": [
                 "Medio ambiente"
@@ -2955,7 +2955,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 84,
             "body": "Promoveremos la identidad, el patrimonio agroalimentario y los sistemas socioeconómicos basados en la agroecología, es decir, las DO\n(denominaciones de origen), las marcas europeas y, especialmente, la agricultura ecológica.",
             "topics": [
                 "Medio rural",
@@ -2985,7 +2985,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 85,
             "body": "Trabajaremos para impulsar normativas europeas de pesca adaptadas a nuestras modalidades. La sostenibilidad no es incompatible con nuestras artes tradicionales.",
             "topics": [
                 "Legislación y justicia",
@@ -3009,7 +3009,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 86,
             "body": "Trabajaremos para que el Corredor Mediterráneo ferroviario sea una realidad. Esta infraestructura es clave para la descarbonización del transporte en el País\nValencia, una directriz europea clave para el bienestar y el futuro de los valencianos. Así las autopistas ferroviarias promovidas desde Compromís deben ser\nlas que absorvan en gran parte los transportes que cruzan o generan nuestro territorio, preservando el medio ambiente y reduciendo las emisiones contaminantes",
             "topics": [
                 "Transporte",
@@ -3059,7 +3059,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 87,
             "body": "Trabajaremos para la mejora de todas las conexiones secundarias que permiten una mejor movilidad. Dentro de los trabajos más importantes desarrolladas\nen estos años, está la inclusión del corredor Cantábrico-Mediterráneo, la conexión Sagunto-Zaragoza, en la red transeuropea. Esto permitirá la mejora de la\nvía, y con ello las conexiones de la provincia de Castellón y de todo el territorio de\nAragón. Además permite su electrificación, reduciendo el impacto del paso del\nferrocarril por nuestro territorio.",
             "topics": [
                 "Transporte",
@@ -3111,7 +3111,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 88,
             "body": "Promoveremos iniciativas que ayuden y difundan sobre la importancia para\nnuestra economía que tiene el desarrollo de nuestros aeropuertos y puertos, de\nforma sostenible ambiental y socialmente. El turismo es una pieza clave para\nnosotros, así como del sector logístico, fundamental para permitir las exportaciones valencianas",
             "topics": [
                 "Economía",
@@ -3148,7 +3148,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 89,
             "body": "Impulsaremos acciones para reforzar el papel de las regiones a nivel europeo en las decisiones tomadas en Bruselas. Así hemos defendido en el Comité de\nLas Regiones, donde están representadas más de 300 regiones, la necesidad de aumentar la subsidiariedad a la hora de tomar decisiones para desarrollar\nlas infraestructuras y los fondos europeos.",
             "topics": [
                 "Urbanismo e infraestructuras",
@@ -3188,7 +3188,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 90,
             "body": "Promoveremos la mejora de la movilidad sostenible a lo largo de todo el país y más aún en las áreas metropolitanas valencianas. Así los fondos FEDER destinados a la descarbonización han de permitir la mejora de las líneas del Tramo en las comarcas de Alicante y van a permitir la finalización de la línea L-10 en la ciudad de Valencia, hasta Nazaret. Hay que incidir en la mejora de cooperación institucional para llegar a los estándares europeos de transporte público y sostenible en las áreas del País Valenciano.",
             "topics": [
                 "Transporte",
@@ -3244,7 +3244,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 91,
             "body": "Impulsaremos el establecimiento de unos estándares mínimos de derechos sociales y económicos europeos que, teniendo en cuenta el desarrollo desigual de los Estados miembros, creen una base de cobertura médica, seguro de desempleo, jornada laboral máxima o salario mínimo, entre otros.",
             "topics": [
                 "Sociedad y bienestar",
@@ -3280,7 +3280,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 92,
             "body": "Promoveremos la implantación de un impuesto sobre las transacciones financieras.",
             "topics": [
                 "Economía",
@@ -3298,7 +3298,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 93,
             "body": "Desarrollaremos los instrumentos antidumping para luchar contra la competencia desleal de países como China o Sudáfrica",
             "topics": [
                 "Comercio",
@@ -3320,7 +3320,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 94,
             "body": "Trabajaremos para democratizar las instituciones europeas como el Banco Central Europeo, incluido el control de los lobbies, con una\nmayor transparencia.",
             "topics": [
                 "Legislación y justicia",
@@ -3345,7 +3345,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 95,
             "body": "Impulsaremos y defenderemos la transición económica innovadora, ecológica, inclusiva y socialmente justa y daremos apoyo a los\ntrabajadores afectados por la transición hacia una economía baja en carbono",
             "topics": [
                 "Economía",
@@ -3376,7 +3376,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 96,
             "body": "Lucharemos para hacer de la energía un bien común garantizando el\nacceso y la gestión pública, la eficiencia energética, la producción\ndescentralizada, la interconectividad y las energías renovables.",
             "topics": [
                 "Medio ambiente",
@@ -3405,7 +3405,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 97,
             "body": "Promoveremos un aumento de las inversiones y la financiación de proyectos en base a criterios de sostenibilidad y subsidiariedad, de responsabilidad social, ética y medioambiental, y en base a la evaluación de resultados",
             "topics": [
                 "Economía",
@@ -3435,7 +3435,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 98,
             "body": "Promoveremos un plan de reindustrialización europeo, con el objetivo de que la industria llegue a un 20% del PIB, como señala la UE,  Programa 2019 mediante el aumento de la productividad a través del impulso del I+D+i, el diseño y la formación y la reducción de costes a través, entre otros aspectos, de la eficiencia energética",
             "topics": [
                 "Ciencia y tecnología",
@@ -3478,7 +3478,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 99,
             "body": "Defenderemos el desarrollo sostenible de sectores clave para la sociedad del bienestar como la rehabilitación urbana y de edificios,\nel sector de las energías alternativas, turismo diverso y sostenible, la economía del conocimiento y la transformación digital, los productos ecológicos, la gestión de residuos, la cultura y el sector audiovisual, la economía social, el sector de atención de las personas dependientes y la tercera edad …",
             "topics": [
                 "Sociedad y bienestar",
@@ -3530,7 +3530,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 100,
             "body": "Defenderemos las pymes (son el 99% de las empresas de la UE) y el pequeño comercio, y las políticas que protegen y fomentan la producción y el consumo local o de km 0, artesano y tradicional",
             "topics": [
                 "Economía",
@@ -3560,7 +3560,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 101,
             "body": "Impulsaremos la generalización de las cláusulas sociales en la contratación pública, que prioricen las pequeñas y medianas empresas",
             "topics": [
                 "Sector público",
@@ -3583,7 +3583,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 102,
             "body": "Impulsaremos la ampliación del programa de intercambio de alumnos de Formación Profesional Erasmus +.",
             "topics": [
                 "Educación"
@@ -3603,7 +3603,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 103,
             "body": "Velaremos por la protección de las personas consumidoras.",
             "topics": [
                 "Sociedad y bienestar",
@@ -3620,7 +3620,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 104,
             "body": "Potenciaremos las experiencias que aportan participación ciudadana efectiva y transparencia al desarrollo local. Iniciativas como los parlamentos rurales\neuropeos, se dará traslado e institucionalizar a nivel regional de forma que los modelos locales de desarrollo sean fruto de un amplio consenso que permita\nconsolidar las propuestas más allá de los ciclos electorales.",
             "topics": [
                 "Legislación y justicia",
@@ -3664,7 +3664,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 105,
             "body": "Trabajaremos para desarrollar políticas europeas contra el despoblamiento que deben adaptarse a la realidad de nuestros pueblos.",
             "topics": [
                 "Legislación y justicia",
@@ -3686,7 +3686,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 106,
             "body": "Rebajaremos la complejidad burocrática de los programas europeos de ayudas y apoyo, de manera que se facilite que muchas administraciones y entidades públicas y privadas aprovechen mejor su potencial.",
             "topics": [
                 "Sector público"
@@ -3715,7 +3715,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 107,
             "body": "Fomentaremos la difusión de experiencias de éxito a escala europea con\nfinanciación para la réplica en las comunidades locales, ya sean urbanas o\nrurales.",
             "topics": [
                 "Sector público"
@@ -3739,7 +3739,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 108,
             "body": "Orientaremos las políticas comunitarias que tengan en cuenta las especificidades valencianas de forma que territorios como el nuestro, con una fuerte dualidad rural / urbano y montaña / litoral puedan sacar el máximo provecho de estrategias como los Planes Operativos o los Planes de Desarrollo Rural",
             "topics": [
                 "Legislación y justicia",
@@ -3776,7 +3776,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 109,
             "body": "Trabajaremos para que la UE comprenda la necesidad de mantener actividad\nproductiva en nuestro territorio más allá del turismo o determinadas formas\nde comercio. Exigiremos que la consolidación y el fortalecimiento de la economía productiva sea algo más que una intención en las políticas comunitarias.",
             "topics": [
                 "Economía"
@@ -3809,7 +3809,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 110,
             "body": "Implementaremos políticas eficaces de formación, movilidad y asesoramiento entre las personas jóvenes, de acuerdo con los programas marco Erasmus + y el Cuerpo Europeo de Solidaridad.",
             "topics": [
                 "Educación",
@@ -3837,7 +3837,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 111,
             "body": "Impulsaremos políticas que fomentan la empleabilidad entre la gente joven,\nde acuerdo con el mapa de nuevas competencias y con especial interés los\nnuevos yacimientos laborales.",
             "topics": [
                 "Empleo",
@@ -3865,7 +3865,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 112,
             "body": "Aumentaremos las ayudas a la población joven hasta los 35 años, en la búsqueda de empleo a los estados miembros de la UE, garantizando la remuneración justa de las prácticas.",
             "topics": [
                 "Empleo",
@@ -3892,7 +3892,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 113,
             "body": "La Garantía Europea Juvenil, que asegura que un joven ocupado continúe la educación, el aprendizaje o una práctica laboral dentro de los cuatro meses posteriores a la finalización de la educación, se debe implementar de manera mucho más eficaz. La garantía juvenil debe hacerse obligatoria para todos los Estados miembros, haciendo que la garantía de un trabajo estable, remunerado y de calidad sea su objetivo principal.",
             "topics": [
                 "Empleo",
@@ -3940,7 +3940,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 114,
             "body": "Una financiación suficiente para el cuerpo de voluntariado del Cuerpo Solidario Europeo daría a los jóvenes la oportunidad y los medios financieros para\ndesarrollar sus propios proyectos de voluntariado.",
             "topics": [
                 "Economía",
@@ -3969,7 +3969,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 115,
             "body": "Implementaremos medidas y programas que facilitan el acceso a la vivienda\ny que ponen especial atención a los nuevos contextos transnacionales como\nson el turismo de masas, la especulación o el cambio climático.",
             "topics": [
                 "Sociedad y bienestar"
@@ -3998,7 +3998,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 116,
             "body": "Reclamamos la implementación de las recomendaciones aprobadas en el Parlamento Europeo sobre el informe La igualdad entre mujeres y hombres en la UE en 2014 - 2015.",
             "topics": [
                 "Legislación y justicia",
@@ -4024,7 +4024,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 117,
             "body": "Promoveremos medidas legislativas y no legislativas que impulsan el equilibrio entre la vida laboral y la personal. En particular impulsaremos propuestas\nsobre baja de maternidad y paternidad, recuperando el debate sobre la Directiva de los permisos de maternidad y paternidad (Maternity Leave Directive) en el seno de la Unión Europea con el objetivo de que todos los permisos sean iguales, intransferibles y pagados al 100 %",
             "topics": [
                 "Legislación y justicia",
@@ -4070,7 +4070,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 118,
             "body": "Trabajaremos para desarrollar medidas dirigidas a garantizar los derechos de\nlas trabajadoras de los sectores más precarizados y desregularizados: trabajos de cuidado y en el hogar, trabajo en el sector agrícola, etc",
             "topics": [
                 "Legislación y justicia",
@@ -4100,7 +4100,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 119,
             "body": "Es necesario aprobar una directiva europea que establezca la igualdad en los\nconsejos de administración tanto públicos como privados así como en todas\nlas instituciones y órganos de toma de decisiones.",
             "topics": [
                 "Legislación y justicia",
@@ -4129,7 +4129,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 120,
             "body": "Se debe preservar la autodeterminación de las mujeres. Queremos garantizar la plenitud de derechos sexuales y reproductivos para todas y todos. Hay que\ngarantizar el acceso de las mujeres a servicios de planificación familiar y a  Programa 2019 toda la gama de servicios relacionados con la salud sexual y reproductiva, incluyendo medidas anticonceptivas y acceso al aborto seguro, legal y gratuito.",
             "topics": [
                 "Legislación y justicia",
@@ -4176,7 +4176,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 121,
             "body": "Vigilaremos la sexualización y mercantilización, cosificación, de las mujeres en la industria publicitaria y los medios de comunicación y el uso de estereotipos femeninos machistas que asocian la juventud, belleza y atractivo sexual al éxito social.",
             "topics": [
                 "Legislación y justicia",
@@ -4209,7 +4209,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 122,
             "body": "Trabajaremos para eliminar la trata de personas con fines de explotación se xual y el reconocimiento de la prostitución como directamente relacionada\ncon ella así como que la práctica de la gestación subrogada como contraria a los derechos humanos.",
             "topics": [
                 "Legislación y justicia",
@@ -4240,7 +4240,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 123,
             "body": "Desde el Parlamento europeo trabajaremos por la eliminación de la violencia contra las mujeres mediante reformas legislativas y políticas, que posibiliten actuaciones comunes, coherentes y coordinadas en todos los países miembros. Potenciaremos los instrumentos internacionales y europeos para abor dar todas las formas de violencia de género y solicitaremos la ratificación e implementación plena del Convenio de Estambul dentro de todos los Estados miembros",
             "topics": [
                 "Legislación y justicia",
@@ -4288,7 +4288,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 124,
             "body": "Promoveremos campañas de prevención y concienciación social a todos los niveles de manera que la ciudadanía en general tenga información y formación sobre las diversas manifestaciones de la violencia hacia las mujeres.",
             "topics": [
                 "Educación",
@@ -4317,7 +4317,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 125,
             "body": "Europa debe ser garantía de derechos humanos y debe tener una política coherente con las personas que necesitan refugio. Las mujeres sufren espe\ncialmente el tránsito y es necesario una política digna para aliviar en la medida de lo posible este drama. También hay que reconocer la violencia de género y machista como motivo de demanda de asilo.",
             "topics": [
                 "Legislación y justicia",
@@ -4362,7 +4362,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 126,
             "body": "La Unión Europea reconocerá el matrimonio igualitario y las personas se\nles reconocerán los mismos derechos que en el caso de las parejas heterosexuales, incluido el derecho a la adopción. Las instituciones europeas\nvelarán para que estos derechos sean efectivos",
             "topics": [
                 "Legislación y justicia",
@@ -4396,7 +4396,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 127,
             "body": "La Unión Europea elaborará una ley integral para la igualdad y no discriminación de las personas LGTB + en todos sus estados, que implicará todos los ámbitos de la sociedad, pero especialmente las administraciones públicas.",
             "topics": [
                 "Legislación y justicia",
@@ -4424,7 +4424,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 128,
             "body": "Se protegerá el colectivo LGTBT+ frente al acoso laboral y se revisará el marco comunitario sobre lucha contra ciertas formas y expresiones de\nracismo y xenofobia mediante la legislación penal correspondiente, para incluir el sexismo y la incitación al odio por motivos de orientación sexual e identidad sexual.",
             "topics": [
                 "Legislación y justicia",
@@ -4465,7 +4465,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 129,
             "body": "Se promoverán campañas de sensibilización y visibilización de los colectivos LGTB +, con especial cuidado en los ámbitos de la educación y los medios de comunicación",
             "topics": [
                 "Educación",
@@ -4490,7 +4490,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 130,
             "body": "En ningún país de la Unión Europea se exigirá a las personas transgénero someterse a la esterilización para ser reconocidas legalmente.",
             "topics": [
                 "Legislación y justicia",
@@ -4515,7 +4515,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 131,
             "body": "Cada persona debe tener garantizado el derecho de determinar su identidad y expresión de género, incluyendo tener acceso al reconocimiento jurídico de género",
             "topics": [
                 "Legislación y justicia",
@@ -4544,7 +4544,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 132,
             "body": "La persecución en otras partes del mundo del colectivo LGTB + debe\nencontrar en Europa un lugar de libertad y es por ello que esta persecución debe ser motivo de asilo.",
             "topics": [
                 "Legislación y justicia",
@@ -4573,7 +4573,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 133,
             "body": "Fomentaremos la participación directa, comunitaria y plural a través de referéndums vinculantes en el ámbito europeo, y acercaremos la UE especialmente a la realidad valenciana",
             "topics": [
                 "Sociedad y bienestar"
@@ -4600,7 +4600,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 134,
             "body": "Reforzaremos las iniciativas ciudadanas europeas que irán directamente al Parlamento sin pasar por la Comisión. También facilitaremos la\nexigencia de responsabilidades políticas en cualquier Estado miembro. Por ello, defenderemos que el Parlamento Europeo, como institución legislativa elegida democráticamente por la ciudadanía, tenga más peso en la toma de decisiones, pueda ejercer un mayor control en el resto de instituciones y sea un verdadero altavoz de la sociedad civil, más allá de los procesos de consulta e información obligatorios desde la entrada en vigor del Tratado de Lisboa",
             "topics": [
                 "Sociedad y bienestar",
@@ -4659,7 +4659,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 135,
             "body": "Haremos una estricta auditoría pública de la deuda y estableceremos una rendición periódica de cuentas a la ciudadanía, de una manera clara,\ncomprensible y de fácil acceso.",
             "topics": [
                 "Economía",
@@ -4688,7 +4688,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 136,
             "body": "Impulsaremos un detallado registro de transparencia y regularemos\nclaramente sobre los lobbies y los grupos de presión a escala europea\n(incorporando reuniones, peticiones y financiación), e incluiremos las\nfundaciones asociadas a cada partido.",
             "topics": [
                 "Sociedad y bienestar"
@@ -4720,7 +4720,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 137,
             "body": "Instaremos a la regulación y prohibición real de las puertas giratorias\npor los altos cargos de la Unión Europea. Exigiremos para todos los cargos un marco regulador de incompatibilidades, conflicto de intereses y transparencia durante su actividad pública.",
             "topics": [
                 "Sociedad y bienestar",
@@ -4754,7 +4754,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 138,
             "body": "Prohibiremos, mediante Directiva Europea, la publicidad en los medios de comunicación audiovisuales y en los espacios públicos de los juegos en línea de las casas de apuestas",
             "topics": [
                 "Sociedad y bienestar",
@@ -4781,7 +4781,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 139,
             "body": "Elaboraremos un plan europeo con propuestas concretas para combatir la evasión de impuestos, los paraísos fiscales, la evasión y el fraude fiscal en el espacio de la UE.",
             "topics": [
                 "Economía",
@@ -4810,7 +4810,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 140,
             "body": "Garantizaremos rutas seguras y legales a Europa a través de visados humanitarios, abriendo vías legales para la llegada de personas migrantes y avanzando en la reforma del convenio de Dublín. Promoveremos la posibilidad de solicitar asilo en misiones diplomáticas (embajadas y consulados) y potenciaremos programas de reubicación y reasentamiento y de reagrupamiento familiar.",
             "topics": [
                 "Sociedad y bienestar",
@@ -4856,7 +4856,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 141,
             "body": "Defenderemos una posición garantista en las negociaciones de la reforma del Sistema Europeo Común de Asilo (SECA) que respete y haga cumplir las obligaciones internacionales contraídas por los Estados miembro de la Unión Europea, tanto los derechos establecidos por el Convenio Europeo de Derechos Humanos, como por la carta Social Europea, y por el resto de normativa internacional. La Unión Europea y sus Estados miembro deben poner fin a las políticas de externalización de fronteras.",
             "topics": [
                 "Sociedad y bienestar",
@@ -4909,7 +4909,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 142,
             "body": "Cumpliremos los estándares del Consejo de Europa en materia de migración y derechos de las personas migrantes. Y garantizaremos la articulación de un sistema de acogida flexible y sostenible que asegure a todas las personas solicitantes de asilo un proceso de inclusión efectivo, adecuándose a las cambiantes necesidades sociales y laborales, y teniendo en cuenta los medios oportunos para atender a personas con necesidades especiales. Además, reconoceremos las habilidades aprendidas en el país de origen y la capacitación en idiomas como herramienta para combatir el racismo e integrar así a los recién llegados al mercado laboral.",
             "topics": [
                 "Sociedad y bienestar",
@@ -4975,7 +4975,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 143,
             "body": "Exigiremos a la Unión Europea el desarrollo de instrumentos de financiación común, tales como el presupuesto comunitario, para apoyar a\ntodos los territorios que reciben un gran número de personas migrantes o refugiadas, facilitando así la integración y abordando las cuestiones\nsociales y sanitarias.",
             "topics": [
                 "Economía",
@@ -5014,7 +5014,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 144,
             "body": "Garantizaremos que el personal de los puestos fronterizos reciba formación en materia de género para identificar y atender adecuadamente las\nnecesidades especiales derivadas de situaciones de especial vulnerabilidad y de posibles casos de trata con fines de explotación o de violencia\nsexual.",
             "topics": [
                 "Educación",
@@ -5051,7 +5051,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 145,
             "body": "Exigiremos el cierre definitivo de los Centros de Internamiento para Extranjeros (CIE) ya existentes en Europa y nos opondremos a la creación de nuevos.",
             "topics": [
                 "Sociedad y bienestar",
@@ -5076,7 +5076,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 146,
             "body": "Instaremos a que la UE establezca una política exterior y de seguridad común y cohesionada, orientada hacia la defensa de valores como la justicia universal, la solidaridad, la paz, así como de los bienes comunes globales. La consecución de este objetivo, permitirá que la UE actúe en pie de igualdad con los grandes poderes políticos y económicos",
             "topics": [
                 "Seguridad",
@@ -5120,7 +5120,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 147,
             "body": "Defenderemos que la UE apoye una gobernanza global multilateral que refuerce el papel de la ONU, como garante de la defensa de los derechos humanos, la prevención y la resolución dialogada y pacífica de los conflictos internacionales en el marco de la Carta de las Naciones Unidas y del Derecho internacional. La UE tiene que liderar la reforma del Consejo de Seguridad de Naciones Unidas, empezando por la derogación del derecho de veto",
             "topics": [
                 "Seguridad"
@@ -5168,7 +5168,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 148,
             "body": "Promoveremos activamente la universalización del Tratado sobre el Comercio de Armas. Europa tiene que trabajar activamente para el desarme internacional, incluida la prohibición de las armas nucleares; e impedir la venta de armas -tal y como solicitó el Parlamento Europeo en una resolución del pleno de la Eurocámara en noviembre de 2017- a cualquier Estado cuando exista un riesgo sustancial de que las armas puedan ser utilizadas para cometer o facilitar violaciones flagrantes de los derechos humanos y del derecho internacional humanitario.",
             "topics": [
                 "Seguridad",
@@ -5225,7 +5225,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 149,
             "body": "Nos oponemos a que los Fondos Europeos y el presupuesto comunitario se destine a fines militares.",
             "topics": [
                 "Economía",
@@ -5246,7 +5246,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 150,
             "body": "Redirigiremos los fondos de FRONTEX hacia la creación de un servicio público de rescate y salvamento marítimo y se facilite el trabajo de las ONGDs en esta línea",
             "topics": [
                 "Economía",
@@ -5273,7 +5273,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 151,
             "body": "El impulso de la universalización de los derechos humanos recogidos en la Declaración Universal de Derechos Humanos, el Convenio Europeo de\nDerechos Humanos y en la Carta de Derechos Fundamentales de la Unión Europea. Así como la finalización del procedimiento de adhesión al Carta Europea de Derechos Humanos por parte de la UE",
             "topics": [
                 "Legislación y justicia",
@@ -5314,7 +5314,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 152,
             "body": "El impulso de una mayor supervisión en el cumplimiento de los derechos humanos y sanciones más efectivas para penalizar los Estado miembro que violan o permiten la violación de los derechos humanos en el territorio europeo.",
             "topics": [
                 "Legislación y justicia",
@@ -5344,7 +5344,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 153,
             "body": "La lucha contra la violencia y la pobreza mundial con recursos económicos,\nsuficientes para promover en el mundo y en el seno de la UE valores de cultura de paz, justicia e igualdad.",
             "topics": [
                 "Sociedad y bienestar",
@@ -5373,7 +5373,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 154,
             "body": "La promoción de una política exterior unitaria y en coherencia con las políticas de desarrollo sostenible, integrando los 17 Objetivos de Desarrollo Sostenible de la Agenda 2030 de Naciones Unidas para establecer, de manera\ntransversal e interinstitucional, un claro horizonte de sostenibilidad ambiental, social, económica y cultural para 2030.",
             "topics": [
                 "Sociedad y bienestar",
@@ -5416,7 +5416,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 155,
             "body": "La elaboración de un Plan Estratégico de Acción Exterior y de la Unión Europea que identifique los objetivos estratégicos en términos de acción exterior y de la Unión Europea, y estableceremos objetivos operativos claros y medibles que nos permitan evaluar el avance en las diferentes metas.",
             "topics": [
                 "Legislación y justicia"
@@ -5453,7 +5453,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 156,
             "body": "El reforzamiento de nuestro rol euromediterráneo y el aumento de la cooperación social, económica y ambiental; principalmente con los territorios del\nMediterráneo occidental.",
             "topics": [
                 "Legislación y justicia",
@@ -5480,7 +5480,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 157,
             "body": "Integraremos los 17 Objetivos de Desarrollo Sostenible de la Agenda 2030 de\nNaciones Unidas para establecer, de manera transversal e interinstitucional,\nun horizonte de sostenibilidad ambiental, social, económico y cultural para\n2030.",
             "topics": [
                 "Legislación y justicia"
@@ -5512,7 +5512,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 158,
             "body": "Reforzaremos nuestro papel mediterráneo y aumentaremos la cooperación\nsocial, económica y ambiental, principalmente con los territorios del Mediterráneo Occidental",
             "topics": [
                 "Comercio",
@@ -5537,7 +5537,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 159,
             "body": "Pediremos que las relaciones de la Unión Europea con el Consejo de Europa\nsean más fluidas, cuando se estén tratando temas de derechos fundamentales, incluidos los derechos sociales.",
             "topics": [
                 "Sociedad y bienestar"
@@ -5563,7 +5563,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 160,
             "body": "Exigiremos que la Unión Europea ratifique el Convenio Europeo de Derechos\nHumanos y la Carta Social Europea, a pesar de las discrepancias incomprensibles del Tribunal de Justicia de la UE, porque es un tema clave para construir\nuna Unión Europea más humana y social.",
             "topics": [
                 "Legislación y justicia"
@@ -5599,7 +5599,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 161,
             "body": "Exigiremos que en materia de tratados comerciales que la Unión Europea, se respetan las cláusulas de protección de los derechos humanos en los países firmantes. El respeto de los derechos humanos se entiende de acuerdo con el principio de indivisibilidad de los derechos fundamentales, es decir que se deberán respetar tan derechos civiles y libertades públicas como\nderechos sociales.",
             "topics": [
                 "Legislación y justicia",
@@ -5644,7 +5644,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 162,
             "body": "Reclamaremos que la cooperación al desarrollo y la acción exterior de la Unión Europea tengan como eje principal la consolidación democrática, el respeto de los derechos humanos y el bienestar social de los países destinatarios. ",
             "topics": [
                 "Legislación y justicia",
@@ -5675,7 +5675,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 163,
             "body": "Una implicación y un desarrollo eficaz y efectivo de la “Carta europea de las lenguas regionales y minoritarias” así como un compromiso\nfirme para vigilar los incumplimientos de algunos de los preceptos que vienen propuestos por el comité de expertos. Es necesario que\nel Parlamento Europeo y la Comisión Europea hagan suya la carta e implementen políticas de fomento del uso en coordinación con el\nConsejo de Europa.",
             "topics": [
                 "Legislación y justicia",
@@ -5723,7 +5723,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 164,
             "body": "La presencia de la lengua propia de los valencianos en Europa, durante el próximo período de trabajo del Parlamento Europeo en\nmateria lingüística debe quedar garantizada: intervenciones de los eurodiputados y eurodiputadas, comunicaciones con la Unión Europea, implementación de la iniciativa Minority Safepack y modificaciones normativas que entorpezcan nuestra lengua, deben ser una prioridad. Así como la coordinación y apoyo a las redes NPLD y ELEN.",
             "topics": [
                 "Cultura y ocio"
@@ -5773,7 +5773,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 165,
             "body": "Es necesario desarrollar políticas de promoción del multilingüismo autocentrado: promover todas las lenguas empezando por la nuestra.",
             "topics": [
                 "Legislación y justicia",
@@ -5796,7 +5796,7 @@
         },
         {
             "id_manifesto": 1,
-            "id_proposal": 1,
+            "id_proposal": 166,
             "body": "Informar y denunciar en las instituciones europeas todas aquellas agresiones lingüísticas que durante los últimos años sufre nuestro pueblo.",
             "topics": [
                 "Legislación y justicia",

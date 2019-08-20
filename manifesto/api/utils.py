@@ -87,12 +87,15 @@ def json2db(data, old_data=dict(), mode='new'):
                     value = convert_date(value)
                 # end fix
                 setattr(manifesto, k, value)
+        manifesto.id = -1
         db.session.add(manifesto)
         db.session.commit()
 
         for proposal_data in proposals_data:
             proposal = Proposal()
             for k, v in schema.get('proposal').items():
+                if k == 'id':
+                    k = 'id_proposal'
                 value = proposal_data.pop(v, None)
                 if value is not None:
                     if k in ['budget', 'non_negotiable'] and not isinstance(value, bool):
