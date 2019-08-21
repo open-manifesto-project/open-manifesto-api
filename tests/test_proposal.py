@@ -46,6 +46,26 @@ class ProposalTests(unittest.TestCase, FixturesMixin):
         self.assertEqual(len(response.get_json()), 166)
         self.assertEqual(sorted(response.get_json()[0].keys()), self.proposal_keys)
 
+    def test_list_proposals_filters_manifesto(self):
+        response = self.client.get('/api/proposal?political_party=Compromiso por Europa')
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(len(response.get_json()), 166)
+        response = self.client.get('/api/proposal?political_party=Otro')
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(len(response.get_json()), 0)
+
+    def test_list_proposals_filters_agents(self):
+        response = self.client.get('/api/proposal?agents=test')
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(len(response.get_json()), 2)
+        self.assertEqual(sorted(response.get_json()[0].keys()), self.proposal_keys)
+
+    def test_list_proposals_filters_tags(self):
+        response = self.client.get('/api/proposal?tags=energía,educación')
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(len(response.get_json()), 13)
+        self.assertEqual(sorted(response.get_json()[0].keys()), self.proposal_keys)
+
     def test_get_proposal(self):
         response = self.client.get('/api/proposal/1')
         self.assertEqual(response.status_code, 200)

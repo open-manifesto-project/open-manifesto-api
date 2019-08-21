@@ -1,5 +1,7 @@
 from datetime import datetime
 
+from bloom_filter import BloomFilter
+
 from manifesto.database.models import db
 from manifesto.database.models.manifesto import Manifesto
 from manifesto.database.models.proposal import Proposal
@@ -121,3 +123,18 @@ def json2db(data, old_data=dict(), mode='new'):
     else:
         add(data)
 
+
+def bloom_intersection(search_tags, tags, fast=False):
+    """ Search give tags in proposal tags and return the intersection. If you
+    use the param fast=True, with the first tag found, return the intersection
+    with this tag only. """
+    intersection = []
+    bloom = BloomFilter(error_rate=0.1)
+    for tag in tags:
+        bloom.add(tag)
+    for search_tag in search_tags:
+        if search_tag in bloom:
+            intersection.append(search_tag)
+            if fast:
+                return intersection
+    return intersection

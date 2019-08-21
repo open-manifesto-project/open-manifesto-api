@@ -1,3 +1,5 @@
+from datetime import datetime
+from flask import request
 from flask_restplus import Namespace, Resource
 
 from manifesto.database.models.manifesto import Manifesto
@@ -7,14 +9,24 @@ from manifesto.database.schemas.manifesto import serializer as ser_manifesto
 ns = Namespace('manifestos', description='Manifesto related operations')
 manifesto = ns.model('Manifesto', ser_manifesto)
 
+date_type = lambda x: datetime.strptime(x,'%Y-%m-%d').date()
+
+parser = ns.parser()
+parser.add_argument('political_party', type=str, help='Political party')
+parser.add_argument('type_of_elections', type=str, help='Election type')
+parser.add_argument('geographical_area', type=str, help='Election type')
+parser.add_argument('election_date', type=date_type, help='Election type with format YYYY-M-DD')
+
 
 @ns.route('')
 class ManifestoList(Resource):
-    @ns.doc('list_manifestos')
+    @ns.expect(parser, validate=True)
     @ns.marshal_list_with(manifesto)
     def get(self):
         '''List all manifestos'''
-        return Manifesto.query.all()
+        args = parser.parse_args()
+        args_not_none = {k: v for k, v in args.items() if v is not None}
+        return Manifesto.query.filter_by(**args_not_none).all()
 
 
 @ns.route('/<id>')

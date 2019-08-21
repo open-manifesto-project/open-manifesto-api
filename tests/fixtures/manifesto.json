@@ -76,7 +76,7 @@
                 "movilidad"
             ],
             "priority": "",
-            "agents": ""
+            "agents": ["test", "test2"]
         },
         {
             "id_manifesto": 1,
@@ -107,7 +107,7 @@
                 "cultural"
             ],
             "priority": "",
-            "agents": ""
+            "agents": ["test", "test3"]
         },
         {
             "id_manifesto": 1,
