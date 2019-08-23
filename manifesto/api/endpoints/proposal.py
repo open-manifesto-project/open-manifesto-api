@@ -1,5 +1,6 @@
 from flask_restplus import Namespace, Resource
-from sqlalchemy import and_, func
+from sqlalchemy import and_, cast, func
+from sqlalchemy.dialects.postgresql import ARRAY
 
 from manifesto.database.models import db
 from manifesto.database.models.manifesto import Manifesto
@@ -24,10 +25,21 @@ parser.add_argument('priority', type=str, help='Priority')
 parser.add_argument('budget', type=bool, help='Budget')
 parser.add_argument('non_negotiable', type=bool, help='Non negotiable')
 parser.add_argument('agents', type=str, help='Agents: search if the agents exist')
+parser.add_argument('threshold', type=float, help='Tag threshold overlap: Float number between 0 and 1. 0 one tag exist and 1 every tag exists')
 
 
 @ns.route('')
 class ProposalList(Resource):
+
+    def filter_proposal(self, proposals, tags, threshold):
+        ''' Filter proposal depend on threshold tags. '''
+        filter_proposals = []
+        for proposal in proposals:
+            overlap = len(set(proposal.tags) & set(tags))
+            if overlap / len(tags) >= threshold:
+                filter_proposals.append(proposal)
+        return filter_proposals
+
     @ns.doc('list_proposals')
     @ns.expect(parser, validate=True)
     @ns.marshal_list_with(proposal)
@@ -39,7 +51,8 @@ class ProposalList(Resource):
             'geographical_area',
             'election_date'
         ]
-        tags = None
+        tags = []
+        threshold = 0
         args = parser.parse_args()
         args_manifesto = {}
         args_filter_manifesto = []
@@ -53,20 +66,18 @@ class ProposalList(Resource):
                 args_filter_manifesto.append(getattr(Proposal, k).any(v))
             elif k == 'tags':
                 tags = v.split(',')
+                v_cast = cast(tags, ARRAY(db.String))
+                args_filter_manifesto.append(getattr(Proposal, k).overlap(v_cast))
+            elif k == 'threshold':
+                if 'tags' in args:
+                    threshold = float(v)
             else:
-                args_proposal_by[k] = v
-        proposals = Proposal.query.filter_by(**args_proposal)\
+                args_proposal[k] = v
+        result = Proposal.query.filter_by(**args_proposal)\
                 .filter(and_(*args_filter_manifesto)).join(Manifesto)\
                 .filter(Manifesto.id == Proposal.id_manifesto)\
                 .filter_by(**args_manifesto).all()
-        if tags:
-            proposals_with_tag = []
-            for proposal in proposals[:]:
-                if bloom_intersection(tags, proposal.tags):
-                    proposals_with_tag.append(proposal)
-            return proposals_with_tag
-        else:
-            return proposals
+        return self.filter_proposal(result, tags, threshold) if threshold else result
 
 
 @ns.route('/<id>')

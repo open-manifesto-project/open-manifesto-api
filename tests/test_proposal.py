@@ -66,6 +66,20 @@ class ProposalTests(unittest.TestCase, FixturesMixin):
         self.assertEqual(len(response.get_json()), 13)
         self.assertEqual(sorted(response.get_json()[0].keys()), self.proposal_keys)
 
+    def test_list_proposals_filters_tags_threshold(self):
+        # threshold = 0
+        response = self.client.get('/api/proposal?tags=europea,social,cultura')
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(len(response.get_json()), 64)
+        # threshold = 0.5
+        response = self.client.get('/api/proposal?tags=europea,social,cultura&threshold=0.5')
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(len(response.get_json()), 11)
+        # threshold = 0.5
+        response = self.client.get('/api/proposal?tags=europea,social,cultura&threshold=1')
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(len(response.get_json()), 1)
+
     def test_get_proposal(self):
         response = self.client.get('/api/proposal/1')
         self.assertEqual(response.status_code, 200)
