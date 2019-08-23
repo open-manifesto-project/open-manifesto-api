@@ -13,9 +13,8 @@ from manifesto.api.utils import json2db
 app.config.from_object('manifesto.config.TestingConfig')
 
 
-class JsonTests(unittest.TestCase, FixturesMixin):
+class JsonTests(unittest.TestCase):
 
-    fixtures = []
     app = app
     db = db
 

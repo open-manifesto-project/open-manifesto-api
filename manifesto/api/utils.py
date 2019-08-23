@@ -89,7 +89,6 @@ def json2db(data, old_data=dict(), mode='new'):
                     value = convert_date(value)
                 # end fix
                 setattr(manifesto, k, value)
-        manifesto.id = -1
         db.session.add(manifesto)
         db.session.commit()
 
