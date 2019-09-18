@@ -1,4 +1,4 @@
-from flask import Blueprint
+from flask import Blueprint, url_for
 from flask_restplus import Api
 
 from manifesto.api.endpoints.manifesto import ns as ns_manifesto
@@ -15,8 +15,17 @@ args = {
     'doc': '/docs',
 }
 
-api_v1 = Api(bp_api_v1, version='1.0', **args)
-api = Api(bp_api, version='1.0', **args)
+
+class MyApi(Api):
+    @property
+    def specs_url(self):
+        """Monkey patch for HTTPS"""
+        scheme = 'http' if '5000' in self.base_url else 'https'
+        return url_for(self.endpoint('specs'), _external=True, _scheme=scheme)
+
+
+api_v1 = MyApi(bp_api_v1, version='1.0', **args)
+api = MyApi(bp_api, version='1.0', **args)
 
 for _api in ('api', 'api_v1'):
     eval(_api).add_namespace(ns_manifesto, path='/manifesto')
