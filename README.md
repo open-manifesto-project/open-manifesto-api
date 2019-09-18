@@ -17,13 +17,15 @@ cd open-manifesto-api
 docker-compose up -d
 ```
 
-The first time, create database:
+## Load initial data
+
+With docker-compose running you can exec the next command for load initial data:
 
 ```
-docker exec -u postgres -ti oma_db psql -c "create user manifesto password 'manifesto'"
-docker exec -u postgres -ti oma_db psql -c "create database manifesto owner manifesto"
+docker exec -ti oma_web flask database initial FOLDER
 ```
 
+FOLDER is a folder with .json files
 
 
 ## API Documentation
@@ -35,15 +37,8 @@ http://localhost:5000/api/docs
 
 ## Tests
 
-The first time, create test database:
-```
-docker-compose up -d
-docker exec -u postgres -ti oma_db psql -c "create user manifesto password 'manifesto'"
-docker exec -u postgres -ti oma_db psql -c "create database test_manifesto owner manifesto"
-```
-
 Run test:
 
 ```
-docker exec -ti oma_web sh runtests.sh
+docker-compose -f docker-compose-test.yml run test
 ```

@@ -44,7 +44,7 @@ class TestingConfig(BaseConfig):
         'user': 'manifesto',
         'pwd': 'manifesto',
         'db': 'test_manifesto',
-        'host': 'db',
+        'host': 'db-test',
         'port': '5432',
     }
     SQLALCHEMY_DATABASE_URI = 'postgresql://{user}:{pwd}@{host}:{port}/{db}'.format(**POSTGRES)
