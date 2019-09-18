@@ -5,7 +5,7 @@ class Manifesto(db.Model):
     __tablename__ = 'manifesto'
     id = db.Column(db.Integer, primary_key=True)
     political_party = db.Column(db.String(64))
-    title = db.Column(db.String(128))
+    title = db.Column(db.String(512))
     publication_date = db.Column(db.Date())
     election_date = db.Column(db.Date())
     type_of_elections = db.Column(db.String(64))

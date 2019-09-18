@@ -77,7 +77,7 @@ def json2db(data, old_data=dict(), mode='new'):
 
     def add(data):
         proposals_data = data.pop('proposals', [])
-        version = data.get('version')
+        version = data.get('version', None) or data.get('standardVersion', '1.1')
         schema = schemas.get(version)
 
         manifesto = Manifesto()
@@ -87,6 +87,9 @@ def json2db(data, old_data=dict(), mode='new'):
                 # Fix date format: force date format YYYY-MM-DD, then rm this code
                 if k in ['publication_date', 'election_date']:
                     value = convert_date(value)
+                elif k in ['pages']:
+                    if value == '-':
+                        continue
                 # end fix
                 setattr(manifesto, k, value)
         db.session.add(manifesto)
@@ -107,7 +110,7 @@ def json2db(data, old_data=dict(), mode='new'):
         db.session.commit()
 
     def remove(old_data):
-        version = old_data.get('version')
+        version = old_data.get('version', None) or old_data.get('standardVersion', '1.1')
         schema = schemas.get(version)
         title = old_data.get(schema.get('manifesto').get('title'))
         election_date = old_data.get(schema.get('manifesto').get('election_date'))
