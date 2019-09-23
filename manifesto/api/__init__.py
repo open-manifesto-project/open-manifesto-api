@@ -1,3 +1,5 @@
+from os import environ as env
+
 from flask import Blueprint, url_for
 from flask_restplus import Api
 
@@ -20,7 +22,8 @@ class MyApi(Api):
     @property
     def specs_url(self):
         """Monkey patch for HTTPS"""
-        scheme = 'http' if '5000' in self.base_url else 'https'
+        port = env.get('PORT', '5000')
+        scheme = 'http' if port in self.base_url else 'https'
         return url_for(self.endpoint('specs'), _external=True, _scheme=scheme)
 
 

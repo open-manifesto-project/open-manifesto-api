@@ -17,10 +17,14 @@ services:
     restart: always
     container_name: oma_web
     build: .
+    env_file:
+      - .env
+    environment:
+      - PORT=${PORT}
     volumes:
       - .:/app
     ports:
-      - "58994:5000"
+      - "${PORT}:5000"
     user: "1000:1000"
     depends_on:
       - db

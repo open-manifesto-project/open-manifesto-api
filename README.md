@@ -17,6 +17,12 @@ cd open-manifesto-api
 docker-compose up -d
 ```
 
+For expose api in other PORT, for example 5001:
+
+```
+PORT=5001 docker-compose up -d
+```
+
 ## Load initial data
 
 With docker-compose running you can exec the next command for load initial data:
@@ -31,7 +37,7 @@ FOLDER is a folder with .json files
 ## API Documentation
 
 ```
-http://localhost:58994/api/docs
+http://localhost:5000/api/docs
 ```
 
 
