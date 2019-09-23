@@ -20,7 +20,7 @@ services:
     volumes:
       - .:/app
     ports:
-      - "58994"
+      - "58994:5000"
     user: "1000:1000"
     depends_on:
       - db
