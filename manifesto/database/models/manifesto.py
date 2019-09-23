@@ -15,5 +15,4 @@ class Manifesto(db.Model):
     created_by = db.Column(db.String(64))
     pages = db.Column(db.Integer())
     num_proposals = db.Column(db.Integer())
-    proposals = db.relationship('Proposal', backref='manifesto', lazy='dynamic',
-                                passive_deletes=True)
+    proposals = db.relationship('Proposal', backref='manifesto', passive_deletes=True)
