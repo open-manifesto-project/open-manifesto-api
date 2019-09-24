@@ -47,8 +47,8 @@ class ManifestoElectionType(Resource):
     def get(self):
         '''List election types'''
         col = Manifesto.type_of_elections
-        query = Manifesto.query.with_entities(col).distinct().all()
-        return list(zip(*query))
+        query = Manifesto.query.with_entities(col).filter(col.isnot(None)).distinct().all()
+        return list(*zip(*query))
 
 
 @ns.route('/geographical-area')
@@ -57,8 +57,8 @@ class ManifestoGeographicalArea(Resource):
     def get(self):
         '''List geographical areas'''
         col = Manifesto.geographical_area
-        query = Manifesto.query.with_entities(col).distinct().all()
-        return list(zip(*query))
+        query = Manifesto.query.with_entities(col).filter(col.isnot(None)).distinct().all()
+        return list(*zip(*query))
 
 
 @ns.route('/political-party')
@@ -67,5 +67,5 @@ class ManifestoPoliticalParty(Resource):
     def get(self):
         '''List political parties'''
         col = Manifesto.political_party
-        query = Manifesto.query.with_entities(col).distinct().all()
-        return list(zip(*query))
+        query = Manifesto.query.with_entities(col).filter(col.isnot(None)).distinct().all()
+        return list(*zip(*query))

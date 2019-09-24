@@ -98,7 +98,7 @@ class ProposalTopic(Resource):
     def get(self):
         '''List proposal topics'''
         query = db.session.query(func.unnest(Proposal.topics)).distinct().all()
-        return list(zip(*query))
+        return list(*zip(*query))
 
 
 @ns.route('/priority')
@@ -107,5 +107,5 @@ class ProposalPriority(Resource):
     def get(self):
         '''List proposal priorities'''
         col = Proposal.priority
-        query = Proposal.query.with_entities(col).distinct().all()
-        return list(zip(*query))
+        query = Proposal.query.with_entities(col).filter(col.isnot(None)).distinct().all()
+        return list(*zip(*query))

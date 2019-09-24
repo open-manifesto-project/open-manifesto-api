@@ -25,7 +25,7 @@ schemas = {
         'proposal': {
             'id_proposal': 'id',
             'body': 'body',
-            'topic': 'topic',
+            'topics': 'topics',
             'tags': 'tags',
             'priority': 'priority',
             'budget': 'budget',
@@ -39,7 +39,7 @@ schemas = {
             'title': 'title',
             'publication_date': 'publicationDate',
             'election_date': 'electionDate',
-            'type_of_elections': 'electionsType',
+            'type_of_elections': 'electionType',
             'geographical_area': 'geographicalArea',
             'version': 'standardVersion',
             'uri': 'URI',
@@ -50,7 +50,7 @@ schemas = {
         'proposal': {
             'id_proposal': 'id',
             'body': 'body',
-            'topic': 'topic',
+            'topics': 'topics',
             'tags': 'tags',
             'priority': 'priority',
             'budget': 'budget',
