@@ -9,7 +9,7 @@ from manifesto.api.endpoints.hook import ns as ns_hook
 
 
 bp_api = Blueprint('api', __name__, url_prefix='')
-bp_api_v1 = Blueprint('api v1', __name__, url_prefix='')
+bp_api_v1 = Blueprint('api v1', __name__, url_prefix='/v1')
 
 args = {
     'title': "Open Manifesto Project API",
@@ -30,10 +30,7 @@ class MyApi(Api):
 api_v1 = MyApi(bp_api_v1, version='1.0', **args)
 api = MyApi(bp_api, version='1.0', **args)
 
-api_v1.add_namespace(ns_manifesto, path='/api/v1/manifesto')
-api_v1.add_namespace(ns_proposal, path='/api/v1/proposal')
-api_v1.add_namespace(ns_hook, path='/api/v1/hook')
-
-api.add_namespace(ns_manifesto, path='/api/manifesto')
-api.add_namespace(ns_proposal, path='/api/proposal')
-api.add_namespace(ns_hook, path='/api/hook')
+for _api in ('api_v1', 'api'):
+    eval(_api).add_namespace(ns_manifesto, path='/api/manifesto')
+    eval(_api).add_namespace(ns_proposal, path='/api/proposal')
+    eval(_api).add_namespace(ns_hook, path='/api/hook')
