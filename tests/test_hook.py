@@ -41,7 +41,7 @@ class HookTests(unittest.TestCase, FixturesMixin):
         with open(filename, 'r') as f:
             data = json.load(f)
         headers = {"X-Hub-Signature": "sha1=73683fc4af20f28fe633b45bd14527b80ad36961"}
-        response = self.client.post('/api/hook', json=data, headers=headers)
+        response = self.client.post('/hook', json=data, headers=headers)
         self.assertEqual(response.status_code, 200)
         # end data
         self.assertEqual(Manifesto.query.count(), 2)
@@ -56,7 +56,7 @@ class HookTests(unittest.TestCase, FixturesMixin):
         with open(filename, 'r') as f:
             data = json.load(f)
         headers = {"X-Hub-Signature": "sha1=6169b147087f52d3868b785e29b5451578a17db1"}
-        response = self.client.post('/api/hook', json=data, headers=headers)
+        response = self.client.post('/hook', json=data, headers=headers)
         self.assertEqual(response.status_code, 200)
         # end data
         self.assertEqual(Manifesto.query.count(), 0)
@@ -71,7 +71,7 @@ class HookTests(unittest.TestCase, FixturesMixin):
         with open(filename, 'r') as f:
             data = json.load(f)
         headers = {"X-Hub-Signature": "sha1=bda3196f4943593f82fe5448dfc32dcfe4f47d1e"}
-        response = self.client.post('/api/hook', json=data, headers=headers)
+        response = self.client.post('/hook', json=data, headers=headers)
         self.assertEqual(response.status_code, 200)
         # end data
         self.assertEqual(Manifesto.query.count(), 1)
