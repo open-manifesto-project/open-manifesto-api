@@ -3,11 +3,12 @@ from flask import request
 from flask_restplus import Namespace, Resource
 
 from manifesto.database.models.manifesto import Manifesto
-from manifesto.database.schemas.manifesto import serializer as ser_manifesto
+from manifesto.database.schemas.manifesto import serializer, serializer_with_proposal
 
 
 ns = Namespace('manifestos', description='Manifesto related operations')
-manifesto = ns.model('Manifesto', ser_manifesto)
+manifesto = ns.model('Manifesto', serializer)
+manifesto_with_proposals = ns.model('Manifesto', serializer_with_proposal)
 
 date_type = lambda x: datetime.strptime(x,'%Y-%m-%d').date()
 
@@ -35,7 +36,7 @@ class ManifestoList(Resource):
 class ManifestoParam(Resource):
     '''Show a single manifesto item'''
     @ns.doc('get_manifesto')
-    @ns.marshal_with(manifesto)
+    @ns.marshal_with(manifesto_with_proposals)
     def get(self, id):
         '''Fetch a manifesto given its identifier'''
         return Manifesto.query.get(id)

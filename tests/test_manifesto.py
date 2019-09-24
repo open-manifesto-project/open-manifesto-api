@@ -13,7 +13,7 @@ class ManifestoTests(unittest.TestCase, FixturesMixin):
 
     fixtures = ['manifesto.json']
     # Fixture contains:
-    # * 1 manifesto
+    # * 1 manifesto with id=100
     # * 166 proposals
     app = app
     db = db
@@ -39,6 +39,8 @@ class ManifestoTests(unittest.TestCase, FixturesMixin):
             'uri',
             'version'
         ]
+        self.manifesto_keys_2 = self.manifesto_keys.copy()
+        self.manifesto_keys_2.remove('proposals')
 
     def tearDown(self):
         db.session.remove()
@@ -48,7 +50,7 @@ class ManifestoTests(unittest.TestCase, FixturesMixin):
         response = self.client.get('/manifesto')
         self.assertEqual(response.status_code, 200)
         self.assertEqual(len(response.get_json()), 1)
-        self.assertEqual(sorted(response.get_json()[0].keys()), self.manifesto_keys)
+        self.assertEqual(sorted(response.get_json()[0].keys()), self.manifesto_keys_2)
 
     def test_list_manifesto_filter(self):
         political_party = Manifesto.query.first().political_party
@@ -56,7 +58,7 @@ class ManifestoTests(unittest.TestCase, FixturesMixin):
         response = self.client.get('/manifesto?{}'.format(args))
         self.assertEqual(response.status_code, 200)
         self.assertEqual(len(response.get_json()), 1)
-        self.assertEqual(sorted(response.get_json()[0].keys()), self.manifesto_keys)
+        self.assertEqual(sorted(response.get_json()[0].keys()), self.manifesto_keys_2)
 
     def test_list_manifesto_filter_bad_request(self):
         political_party = Manifesto.query.first().political_party + 'x'
@@ -65,9 +67,13 @@ class ManifestoTests(unittest.TestCase, FixturesMixin):
         self.assertEqual(response.status_code, 400)
 
     def test_get_manifesto(self):
-        response = self.client.get('/manifesto/1')
+        response = self.client.get('/manifesto/100')
         self.assertEqual(response.status_code, 200)
         self.assertEqual(sorted(response.get_json().keys()), self.manifesto_keys)
+        proposals = response.get_json().get('proposals')
+        self.assertTrue(isinstance(proposals, list))
+        self.assertTrue('id' in proposals[0].keys())
+        self.assertTrue('body' in proposals[0].keys())
 
     def test_get_election_types(self):
         response = self.client.get('/manifesto/election-type')

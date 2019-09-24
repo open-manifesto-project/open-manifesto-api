@@ -1,10 +1,10 @@
 from flask_restplus import Namespace, fields
 
-from manifesto.database.schemas.proposal import simple_serializer
+from manifesto.database.schemas.proposal import serializer
 
 
 ns = Namespace('proposals', description='Proposal related operations')
-proposal = ns.model('Proposal', simple_serializer)
+proposal = ns.model('Proposal', serializer)
 
 
 serializer =  {
@@ -20,5 +20,7 @@ serializer =  {
     'created_by': fields.String(description=''),
     'pages': fields.Integer(description=''),
     'num_proposals': fields.Integer(description=''),
-    'proposals': fields.List(fields.Nested(proposal))
 }
+
+serializer_with_proposal = serializer.copy()
+serializer_with_proposal['proposals'] = fields.List(fields.Nested(proposal))
