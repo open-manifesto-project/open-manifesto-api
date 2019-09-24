@@ -12,8 +12,8 @@ bp_api = Blueprint('api', __name__, url_prefix='')
 bp_api_v1 = Blueprint('api v1', __name__, url_prefix='')
 
 args = {
-    'title': "API project",
-    'description': "API versions: <a href='/api/v1/docs'>V1</a> <a href='/api/docs'>latest</a></p>",
+    'title': "Open Manifesto Project API",
+    'description': "This document includes all the methods that the Open Manifesto Project API offers its users.",
     'doc': '/',
 }
 
