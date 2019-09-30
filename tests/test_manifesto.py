@@ -1,12 +1,13 @@
 import unittest
 from flask_fixtures import FixturesMixin
 
-from manifesto.app import app
+from manifesto.app import create_app
+from manifesto.config import TestingConfig
 from manifesto.database.models import db
 from manifesto.database.models.manifesto import Manifesto
 
 
-app.config.from_object('manifesto.config.TestingConfig')
+app = create_app(config=TestingConfig)
 
 
 class ManifestoTests(unittest.TestCase, FixturesMixin):

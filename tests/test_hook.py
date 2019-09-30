@@ -3,13 +3,15 @@ import os
 import unittest
 from flask_fixtures import FixturesMixin
 
-from manifesto.app import app
+from manifesto.app import create_app
+from manifesto.config import TestingConfig
 from manifesto.database.models import db
 from manifesto.database.models.manifesto import Manifesto
 from manifesto.database.models.proposal import Proposal
 from manifesto.api.utils import json2db
 
 
+app = create_app(config=TestingConfig)
 app.config.from_object('manifesto.config.TestingConfig')
 
 

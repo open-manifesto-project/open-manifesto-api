@@ -22,5 +22,5 @@ CMD exec gunicorn -w 5 --timeout=500 --reload -b 0.0.0.0:5000 manifesto.wsgi:app
 
 
 # target dev
-FROM oma AS dev
+FROM pre AS dev
 RUN pip install ipdb

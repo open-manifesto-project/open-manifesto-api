@@ -3,7 +3,6 @@ version: '3.4'
 services:
   db-test:
     restart: always
-    container_name: oma_db_test
     image: postgres:alpine
     environment:
       - POSTGRES_USER=manifesto
@@ -12,8 +11,6 @@ services:
     ports:
       - "5413:5432"
   test:
-    restart: on-failure
-    container_name: oma_web
     build:
       context: .
       target: dev

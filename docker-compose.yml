@@ -12,7 +12,23 @@ services:
     ports:
       - "5412:5432"
     volumes:
-      - oma-db:/var/lib/postgresql/data-oma
+      - oma-db:/var/lib/postgresql/data
+  migrate:
+    restart: on-failure
+    container_name: oma_migrate
+    build:
+      context: .
+      target: pre
+    env_file:
+      - .env
+    environment:
+      - PORT=${PORT}
+    command: ash -c "flask db upgrade"
+    volumes:
+      - .:/app
+    user: "1000:1000"
+    depends_on:
+      - db
   web:
     restart: always
     container_name: oma_web
@@ -30,6 +46,7 @@ services:
     user: "1000:1000"
     depends_on:
       - db
+      - migrate
 
 volumes:
   oma-db:
