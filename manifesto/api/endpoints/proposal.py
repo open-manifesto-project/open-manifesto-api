@@ -92,7 +92,7 @@ class ProposalParam(Resource):
         return Proposal.query.get(id)
 
 
-@ns.route('/topic')
+@ns.route('/topics')
 class ProposalTopic(Resource):
     @ns.doc('proposal_topics')
     def get(self):
@@ -101,7 +101,7 @@ class ProposalTopic(Resource):
         return list(*zip(*query))
 
 
-@ns.route('/priority')
+@ns.route('/priorities')
 class ProposalPriority(Resource):
     @ns.doc('proposal_priorities')
     def get(self):

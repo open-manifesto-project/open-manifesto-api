@@ -47,7 +47,7 @@ class ManifestoTests(unittest.TestCase, FixturesMixin):
         db.drop_all()
 
     def test_list_manifesto(self):
-        response = self.client.get('/manifesto')
+        response = self.client.get('/manifestos')
         self.assertEqual(response.status_code, 200)
         self.assertEqual(len(response.get_json()), 1)
         self.assertEqual(sorted(response.get_json()[0].keys()), self.manifesto_keys_2)
@@ -55,7 +55,7 @@ class ManifestoTests(unittest.TestCase, FixturesMixin):
     def test_list_manifesto_filter(self):
         political_party = Manifesto.query.first().political_party
         args = 'political_party={}'.format(political_party)
-        response = self.client.get('/manifesto?{}'.format(args))
+        response = self.client.get('/manifestos?{}'.format(args))
         self.assertEqual(response.status_code, 200)
         self.assertEqual(len(response.get_json()), 1)
         self.assertEqual(sorted(response.get_json()[0].keys()), self.manifesto_keys_2)
@@ -63,11 +63,11 @@ class ManifestoTests(unittest.TestCase, FixturesMixin):
     def test_list_manifesto_filter_bad_request(self):
         political_party = Manifesto.query.first().political_party + 'x'
         args = 'election_date={}'.format('bad request')
-        response = self.client.get('/manifesto?{}'.format(args))
+        response = self.client.get('/manifestos?{}'.format(args))
         self.assertEqual(response.status_code, 400)
 
     def test_get_manifesto(self):
-        response = self.client.get('/manifesto/100')
+        response = self.client.get('/manifestos/100')
         self.assertEqual(response.status_code, 200)
         self.assertEqual(sorted(response.get_json().keys()), self.manifesto_keys)
         proposals = response.get_json().get('proposals')
@@ -76,17 +76,17 @@ class ManifestoTests(unittest.TestCase, FixturesMixin):
         self.assertTrue('body' in proposals[0].keys())
 
     def test_get_election_types(self):
-        response = self.client.get('/manifesto/election-type')
+        response = self.client.get('/manifestos/election-types')
         self.assertEqual(response.status_code, 200)
         self.assertEqual(len(response.get_json()), 1)
 
     def test_get_geographical_areas(self):
-        response = self.client.get('/manifesto/geographical-area')
+        response = self.client.get('/manifestos/geographical-areas')
         self.assertEqual(response.status_code, 200)
         self.assertEqual(len(response.get_json()), 1)
 
     def test_get_political_parties(self):
-        response = self.client.get('/manifesto/political-party')
+        response = self.client.get('/manifestos/political-parties')
         self.assertEqual(response.status_code, 200)
         self.assertEqual(len(response.get_json()), 1)
 

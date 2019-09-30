@@ -42,7 +42,7 @@ class ManifestoParam(Resource):
         return Manifesto.query.get(id)
 
 
-@ns.route('/election-type')
+@ns.route('/election-types')
 class ManifestoElectionType(Resource):
     @ns.doc('election_types')
     def get(self):
@@ -52,7 +52,7 @@ class ManifestoElectionType(Resource):
         return list(*zip(*query))
 
 
-@ns.route('/geographical-area')
+@ns.route('/geographical-areas')
 class ManifestoGeographicalArea(Resource):
     @ns.doc('geographical_areas')
     def get(self):
@@ -62,7 +62,7 @@ class ManifestoGeographicalArea(Resource):
         return list(*zip(*query))
 
 
-@ns.route('/political-party')
+@ns.route('/political-parties')
 class ManifestoPoliticalParty(Resource):
     @ns.doc('political_parties')
     def get(self):

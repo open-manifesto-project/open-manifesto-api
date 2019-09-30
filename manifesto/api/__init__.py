@@ -31,6 +31,6 @@ api_v1 = MyApi(bp_api_v1, version='1.0', **args)
 api = MyApi(bp_api, version='1.0', **args)
 
 for _api in ('api_v1', 'api'):
-    eval(_api).add_namespace(ns_manifesto, path='/manifesto')
-    eval(_api).add_namespace(ns_proposal, path='/proposal')
+    eval(_api).add_namespace(ns_manifesto, path='/manifestos')
+    eval(_api).add_namespace(ns_proposal, path='/proposals')
     eval(_api).add_namespace(ns_hook, path='/hook')
