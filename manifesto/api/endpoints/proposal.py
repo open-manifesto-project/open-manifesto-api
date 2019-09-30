@@ -5,12 +5,13 @@ from sqlalchemy.dialects.postgresql import ARRAY
 from manifesto.database.models import db
 from manifesto.database.models.manifesto import Manifesto
 from manifesto.database.models.proposal import Proposal
-from manifesto.database.schemas.proposal import serializer as ser_proposal
+from manifesto.database.schemas.proposal import serializer, simple_serializer
 from manifesto.api.utils import bloom_intersection
 
 
 ns = Namespace('proposals', description='Proposal related operations')
-proposal = ns.model('Proposal', ser_proposal)
+proposal = ns.model('Proposal', serializer)
+simple_proposal = ns.model('Proposal', simple_serializer)
 
 date_type = lambda x: datetime.strptime(x,'%Y-%m-%d').date()
 
@@ -42,7 +43,7 @@ class ProposalList(Resource):
 
     @ns.doc('list_proposals')
     @ns.expect(parser, validate=True)
-    @ns.marshal_list_with(proposal)
+    @ns.marshal_list_with(simple_proposal)
     def get(self):
         '''List all proposals'''
         arg_manifesto = [

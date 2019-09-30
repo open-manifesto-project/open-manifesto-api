@@ -1,6 +1,12 @@
 from flask_restplus import fields
 
 
+simple_serializer = {
+    'proposal_number': fields.Integer(description=''),
+    'body': fields.String(description=''),
+    'topics': fields.List(fields.String(description='')),
+}
+
 serializer = {
     'id': fields.Integer(required=True, description='The manifesto identifier'),
     'proposal_number': fields.Integer(description=''),
