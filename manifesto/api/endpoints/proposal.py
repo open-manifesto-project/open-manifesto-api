@@ -16,7 +16,7 @@ date_type = lambda x: datetime.strptime(x,'%Y-%m-%d').date()
 
 parser = ns.parser()
 parser.add_argument('political_party', type=str, help='Political party')
-parser.add_argument('type_of_elections', type=str, help='Election type')
+parser.add_argument('election_type', type=str, help='Election type')
 parser.add_argument('geographical_area', type=str, help='Election type')
 parser.add_argument('election_date', type=date_type, help='Election type with format YYYY-M-DD')
 parser.add_argument('topics', type=str, help='Topics: search if the topics exist')
@@ -47,7 +47,7 @@ class ProposalList(Resource):
         '''List all proposals'''
         arg_manifesto = [
             'political_party',
-            'type_of_elections',
+            'election_type',
             'geographical_area',
             'election_date'
         ]

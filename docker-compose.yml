@@ -1,4 +1,4 @@
-version: '3'
+version: '3.4'
 
 services:
   db:
@@ -16,7 +16,9 @@ services:
   web:
     restart: always
     container_name: oma_web
-    build: .
+    build:
+      context: .
+      target: pre
     env_file:
       - .env
     environment:

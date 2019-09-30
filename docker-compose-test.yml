@@ -1,4 +1,4 @@
-version: '3'
+version: '3.4'
 
 services:
   db-test:
@@ -11,18 +11,15 @@ services:
       - POSTGRES_DB=test_manifesto
     ports:
       - "5413:5432"
-    volumes:
-      - oma-test-db:/var/lib/postgresql/data-oma-test
   test:
     restart: on-failure
     container_name: oma_web
-    build: .
+    build:
+      context: .
+      target: dev
     command: ash -c "sh runtests.sh"
     volumes:
       - .:/app
     user: "1000:1000"
     depends_on:
       - db-test
-
-volumes:
-  oma-test-db:

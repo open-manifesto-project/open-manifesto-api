@@ -1,4 +1,5 @@
-FROM python:3.7.3-alpine3.9
+# target pre
+FROM python:3.7.3-alpine3.9 AS pre
 
 ENV FLASK_APP=manifesto.app.py
 
@@ -18,3 +19,8 @@ RUN pip install -r requirements.txt
 WORKDIR /app
 
 CMD exec gunicorn -w 5 --timeout=500 --reload -b 0.0.0.0:5000 manifesto.wsgi:app
+
+
+# target dev
+FROM oma AS dev
+RUN pip install ipdb

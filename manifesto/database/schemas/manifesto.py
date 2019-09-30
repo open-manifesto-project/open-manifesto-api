@@ -13,7 +13,7 @@ serializer =  {
     'title': fields.String(description=''),
     'publication_date': fields.Date(dt_format='rfc822', description=''),
     'election_date': fields.Date(dt_format='rfc822', description=''),
-    'type_of_elections': fields.String(description=''),
+    'election_type': fields.String(description=''),
     'geographical_area': fields.String(description=''),
     'version': fields.String(description='', enum=['1.0', '1.1']),
     'uri': fields.String(description=''),

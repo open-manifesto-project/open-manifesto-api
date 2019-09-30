@@ -27,6 +27,7 @@ class ManifestoTests(unittest.TestCase, FixturesMixin):
         self.manifesto_keys = [
             'created_by',
             'election_date',
+            'election_type',
             'geographical_area',
             'id',
             'num_proposals',
@@ -35,7 +36,6 @@ class ManifestoTests(unittest.TestCase, FixturesMixin):
             'proposals',
             'publication_date',
             'title',
-            'type_of_elections',
             'uri',
             'version'
         ]

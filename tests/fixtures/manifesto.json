@@ -7,7 +7,7 @@
             "title": "Prueba Imparables: Programa electoral para las Elecciones\nal Parlamento Europeo 2019",
             "publication_date": "2019-05-10",
             "election_date": "2019-08-09",
-            "type_of_elections": "europeas",
+            "election_type": "europeas",
             "geographical_area": "",
             "version": 1.0,
             "uri": "",

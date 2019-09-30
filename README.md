@@ -46,5 +46,5 @@ http://localhost:5000
 Run test:
 
 ```
-docker-compose -f docker-compose-test.yml run test
+docker-compose -f docker-compose-test.yml run --rm test
 ```

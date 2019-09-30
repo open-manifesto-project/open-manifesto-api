@@ -14,8 +14,8 @@ date_type = lambda x: datetime.strptime(x,'%Y-%m-%d').date()
 
 parser = ns.parser()
 parser.add_argument('political_party', type=str, help='Political party')
-parser.add_argument('type_of_elections', type=str, help='Election type')
-parser.add_argument('geographical_area', type=str, help='Election type')
+parser.add_argument('election_type', type=str, help='Election type')
+parser.add_argument('geographical_area', type=str, help='Geographical area')
 parser.add_argument('election_date', type=date_type, help='Election type with format YYYY-M-DD')
 
 
@@ -47,7 +47,7 @@ class ManifestoElectionType(Resource):
     @ns.doc('election_types')
     def get(self):
         '''List election types'''
-        col = Manifesto.type_of_elections
+        col = Manifesto.election_type
         query = Manifesto.query.with_entities(col).filter(col.isnot(None)).distinct().all()
         return list(*zip(*query))
 
