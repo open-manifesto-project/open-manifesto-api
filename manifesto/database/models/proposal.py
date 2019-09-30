@@ -7,7 +7,7 @@ from manifesto.database.models.manifesto import Manifesto
 class Proposal(db.Model):
     __tablename__ = 'proposal'
     id = db.Column(db.Integer, primary_key=True)
-    id_proposal = db.Column(db.Integer())
+    proposal_number = db.Column(db.Integer())
     body = db.Column(db.Text())
     topics = db.Column(ARRAY(db.String))
     tags = db.Column(ARRAY(db.String))

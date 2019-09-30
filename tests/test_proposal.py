@@ -29,9 +29,9 @@ class ProposalTests(unittest.TestCase, FixturesMixin):
             'budget',
             'id',
             'id_manifesto',
-            'id_proposal',
             'non_negotiable',
             'priority',
+            'proposal_number',
             'tags',
             'topics'
         ]

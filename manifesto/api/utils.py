@@ -23,7 +23,7 @@ schemas = {
             'num_proposals': 'num_proposals',
         },
         'proposal': {
-            'id_proposal': 'id',
+            'proposal_number': 'id',
             'body': 'body',
             'topics': 'topics',
             'tags': 'tags',
@@ -48,7 +48,7 @@ schemas = {
             'num_proposals': 'numProposals',
         },
         'proposal': {
-            'id_proposal': 'id',
+            'proposal_number': 'id',
             'body': 'body',
             'topics': 'topics',
             'tags': 'tags',
@@ -99,7 +99,7 @@ def json2db(data, old_data=dict(), mode='new'):
             proposal = Proposal()
             for k, v in schema.get('proposal').items():
                 if k == 'id':
-                    k = 'id_proposal'
+                    k = 'proposal_number'
                 value = proposal_data.pop(v, None)
                 if value is not None:
                     if k in ['budget', 'non_negotiable'] and not isinstance(value, bool):

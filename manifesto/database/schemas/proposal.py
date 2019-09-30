@@ -3,7 +3,7 @@ from flask_restplus import fields
 
 serializer = {
     'id': fields.Integer(required=True, description='The manifesto identifier'),
-    'id_proposal': fields.Integer(description=''),
+    'proposal_number': fields.Integer(description=''),
     'body': fields.String(description=''),
     'topics': fields.List(fields.String(description='')),
     'tags': fields.List(fields.String(description='')),
