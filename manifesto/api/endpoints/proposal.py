@@ -66,7 +66,7 @@ class ProposalList(Resource):
             elif k in ['agents', 'topics']:
                 args_filter_manifesto.append(getattr(Proposal, k).any(v))
             elif k == 'tags':
-                tags = v.split(',')
+                tags = v.replace(' ','').split(',')
                 v_cast = cast(tags, ARRAY(db.String))
                 args_filter_manifesto.append(getattr(Proposal, k).overlap(v_cast))
             elif k == 'threshold':
