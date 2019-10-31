@@ -14,6 +14,7 @@ ns = Namespace('hook', description='Hooks')
 
 
 @ns.route('')
+@ns.doc(False)
 class HookRegister(Resource):
 
     def extract_files(self, payload):
