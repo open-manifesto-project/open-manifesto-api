@@ -5,6 +5,9 @@ class BaseConfig:
     PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
     DEBUG = True
 
+    IP = os.environ.get('IP', '0.0.0.0')
+    PORT = os.environ.get('PORT', 4000)
+
     # Flask-Restplus settings
     RESTPLUS_VALIDATE = True
     ERROR_404_HELP = False
