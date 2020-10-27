@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from flask_restplus import Namespace, Resource
 from sqlalchemy import and_, cast, func
 from sqlalchemy.dialects.postgresql import ARRAY
