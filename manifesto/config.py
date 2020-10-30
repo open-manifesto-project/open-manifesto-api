@@ -6,7 +6,7 @@ class BaseConfig:
     DEBUG = True
 
     IP = os.environ.get('IP', '0.0.0.0')
-    PORT = os.environ.get('PORT', 4000)
+    PORT = os.environ.get('PORT', 5000)
 
     # Flask-Restplus settings
     RESTPLUS_VALIDATE = True

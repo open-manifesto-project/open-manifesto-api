@@ -18,7 +18,7 @@ RUN pip install -r requirements.txt
 
 WORKDIR /app
 
-CMD exec gunicorn -w 5 --timeout=500 --reload -b 0.0.0.0:4000 manifesto.wsgi:app
+CMD exec gunicorn -w 5 --timeout=500 --reload -b 0.0.0.0:5000 manifesto.wsgi:app
 
 
 # target dev
