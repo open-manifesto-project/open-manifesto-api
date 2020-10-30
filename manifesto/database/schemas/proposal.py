@@ -5,6 +5,7 @@ simple_serializer = {
     'id': fields.Integer(required=True, description='The manifesto identifier'),
     'body': fields.String(description=''),
     'topics': fields.List(fields.String(description='')),
+    'id_manifesto': fields.Integer(description=''),
 }
 
 serializer = {
