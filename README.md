@@ -17,7 +17,7 @@ cd open-manifesto-api
 docker-compose up -d
 ```
 
-For expose api in other PORT, for example 5001:
+To expose api in other PORT, for example 5001:
 
 ```
 PORT=5001 docker-compose up -d
@@ -26,7 +26,7 @@ PORT=5001 docker-compose up -d
 
 ## Remove current database
 
-If you want remove database could make of several ways:
+If you want to remove a database, you can do it in several ways:
 
 * Put option -v when you down docker-compose:
 
@@ -44,7 +44,7 @@ docker volume rm NAME_VOLUME (remove volume)
 
 ## Load initial data
 
-With docker-compose running you can exec the next command for load initial data:
+With docker-compose running you can exec the next command to load initial data:
 
 ```
 docker exec -ti oma_web flask database initial FOLDER

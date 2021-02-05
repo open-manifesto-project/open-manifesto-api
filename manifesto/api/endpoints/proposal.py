@@ -10,6 +10,8 @@ from manifesto.database.models.proposal import Proposal
 from manifesto.database.schemas.proposal import serializer, simple_serializer
 from manifesto.api.utils import bloom_intersection
 
+import random
+
 
 ns = Namespace('proposals', description='Proposal related operations')
 proposal = ns.model('Proposal', serializer)
@@ -80,7 +82,9 @@ class ProposalList(Resource):
                 .filter(and_(*args_filter_manifesto)).join(Manifesto)\
                 .filter(Manifesto.id == Proposal.id_manifesto)\
                 .filter_by(**args_manifesto).all()
-        return self.filter_proposal(result, tags, threshold) if threshold else result
+        output = self.filter_proposal(result, tags, threshold) if threshold else result
+        random.shuffle(output)
+        return output
 
 
 @ns.route('/<id>')
