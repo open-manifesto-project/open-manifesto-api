@@ -10,7 +10,6 @@ from manifesto.database.models import db, migrate
 
 def create_app(config=DevConfig):
     app = Flask(__name__)
-    CORS(app)
     app.config.from_object(config)
     register_extensions(app)
     register_blueprints(app)
@@ -22,6 +21,7 @@ def register_extensions(app):
     # SQLAlchemy
     db.init_app(app)
     migrate.init_app(app, db)
+    CORS(app)
 
 
 def register_blueprints(app):
