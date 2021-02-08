@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 from flask import Flask
+from flask_cors import CORS
 
 from manifesto.api import bp_api, bp_api_v1
 from manifesto.commands import db_cli
@@ -9,6 +10,7 @@ from manifesto.database.models import db, migrate
 
 def create_app(config=DevConfig):
     app = Flask(__name__)
+    CORS(app)
     app.config.from_object(config)
     register_extensions(app)
     register_blueprints(app)

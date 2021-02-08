@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   db:
-    restart: always
+    restart: unless-stopped
     container_name: oma_db
     image: postgres:alpine
     environment:
@@ -30,7 +30,7 @@ services:
     depends_on:
       - db
   web:
-    restart: always
+    restart: unless-stopped
     container_name: oma_web
     build:
       context: .
