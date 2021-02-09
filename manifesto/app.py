@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 from flask import Flask
-from flask_cors import CORS
 
 from manifesto.api import bp_api, bp_api_v1
 from manifesto.commands import db_cli
@@ -21,7 +20,6 @@ def register_extensions(app):
     # SQLAlchemy
     db.init_app(app)
     migrate.init_app(app, db)
-    CORS(app)
 
 
 def register_blueprints(app):
